@@ -1,3 +1,37 @@
+
+
+:root {
+  --mc1: #cc00ff;
+  --mc2: #7000ff;
+  --hc: #ddd;
+  --bc: #9ba0b8;
+  --hff: 'Heebo',sans-serif;
+  --bff: 'Nunito',sans-serif
+}
+
+body{
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #1b121d;
+  background: -moz-linear-gradient(90deg,#1b121d 0,#120f2f 50%,#1b121d 100%);
+  background: -webkit-linear-gradient(90deg,#1b121d 0,#120f2f 50%,#1b121d 100%);
+  background: linear-gradient(90deg,#1b121d 0,#120f2f 50%,#1b121d 100%);
+  transition: .5s
+}
+
+
+
+header{
+  height: 30vh;
+  background-color: brown;
+}
+.container{
+  background-color: blue;
+}
 .blog{
   text-align: center;
 }
