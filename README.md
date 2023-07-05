@@ -46,3 +46,10 @@
 
  ### 10. Congratulations! You've successfully add your code to Meta-Portal-Website-Team-5! 🙌🏼
 
+
+ ## ⭐  Thanks to all the Team Members
+
+ #### Thanks a lot for spending your time in making this project a success. Thanks a lot! Keep rocking 🍻
+
+ 
+
