@@ -3,3 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.logo-container{
+    background-color: #262626;
+}
+
+.logo{
+    width: 10rem;
+}
