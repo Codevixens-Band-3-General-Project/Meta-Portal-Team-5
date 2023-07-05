@@ -23,4 +23,8 @@
 
 .logo-container{
     justify-content: space-between;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
 }
