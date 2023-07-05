@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.logo-container{
+    background-color: #262626;
+    padding: 10px 20px;
+}
+
+.logo{
+    width: 10rem;
+}
+
+.buy-now button{
+    background-color: #6f9a37;
+    color: white;
+    padding: 8px 22px;
+    font-size: 0.9rem;
+    border: none;
+    border-radius: 5px;
+}
+
+.logo-container{
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
