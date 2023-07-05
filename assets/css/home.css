@@ -4,10 +4,23 @@
     box-sizing: border-box;
 }
 
+.d-flex{
+    display: flex;
+}
+
 .logo-container{
     background-color: #262626;
 }
 
 .logo{
     width: 10rem;
+}
+
+.buy-now button{
+    background-color: #6f9a37;
+    color: white;
+}
+
+.logo-container{
+    justify-content: space-between;
 }
