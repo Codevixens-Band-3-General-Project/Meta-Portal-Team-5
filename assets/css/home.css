@@ -113,6 +113,14 @@ main{
     width: 90%;
 }
 
+.contactus-info{
+    justify-content: space-between;
+}
+
+.contactus-details{
+    width: 30%;
+}
+
 
 /* FOOTER */
 
