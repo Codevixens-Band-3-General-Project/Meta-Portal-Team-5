@@ -140,6 +140,30 @@ main{
     font-size: 1.1rem;
 }
 
+.contactUs-header{
+    color: #9ba0b8;
+    letter-spacing: .5px;
+    font-weight: 700;
+}
+
+.contactUs-header + p{
+    color: #ddd;
+    font-weight: 300;
+}
+
+.contactus-number{
+    font-size: 1.8rem;
+}
+
+.contactus-email{
+    font-size: 2rem;
+}
+
+.contactus-address{
+    font-family: 'Heebo',sans-serif;;
+    font-size: 1.8rem;
+}
+
 .phone-email section{
     margin-bottom: 2rem;
 }
