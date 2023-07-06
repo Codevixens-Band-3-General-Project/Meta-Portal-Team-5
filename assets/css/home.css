@@ -71,12 +71,13 @@
 
 
 ul{
-    gap: 2rem;
+    gap: 2.5rem;
 }
 
 ul li{
     color: white;
     list-style: none;
+    font-size: 1.2rem;
 }
 
 .connect-button button{
@@ -84,7 +85,7 @@ ul li{
     color: white;
     padding: 15px 30px;
     font-size: 0.9rem;
-    border: 2px solid purple;
+    border: 3px solid purple;
     border-radius: 5px;
     font-weight: 700;
 }
