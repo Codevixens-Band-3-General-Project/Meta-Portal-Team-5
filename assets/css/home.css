@@ -10,29 +10,28 @@
 
 .logo-container{
     background-color: #262626;
-    padding: 10px 20px;
-}
-
-.logo{
-    width: 10rem;
-}
-
-.buy-now button{
-    background-color: #6f9a37;
-    color: white;
-    padding: 8px 22px;
-    font-size: 0.9rem;
-    border: none;
-    border-radius: 5px;
-}
-
-.logo-container{
+    padding: 18px 20px;
     justify-content: space-between;
     position: fixed;
     top: 0;
     right: 0;
     left: 0;
 }
+
+.logo{
+    width: 10rem;
+}
+
+.buy-now a{
+    background-color: #6f9a37;
+    color: white;
+    padding: 8px 22px;
+    font-size: 0.9rem;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
 
 .nav-bar{
     background: linear-gradient(90deg,#1b121d 0,#120f2f 50%,#1b121d 100%);
