@@ -52,12 +52,16 @@
     height: 50px;
     justify-content: center;
     align-items: center;
-    
 }
 
 .nav-bar{
     background: linear-gradient(90deg,#1b121d 0,#120f2f 50%,#1b121d 100%);
     justify-content: space-between;
+    position: fixed;
+    top: 3.4rem;
+    left: 0;
+    right: 0;
+    padding: 1.5rem;
 }
 
 .nav-pages{
