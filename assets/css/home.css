@@ -134,6 +134,12 @@ main{
     margin-bottom: 1.6rem;
 }
 
+.contactus-details_text{
+    color: #9ba0b8;
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+
 .phone-email section{
     margin-bottom: 2rem;
 }
