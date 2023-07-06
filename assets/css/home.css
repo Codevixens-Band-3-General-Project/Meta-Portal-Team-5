@@ -104,7 +104,7 @@ footer{
     left: 0;
     right: 0;
     margin-top: 10rem;
-    border-top: 1px solid black;
+    border-top: 1px solid #eee;
     padding: 2rem 5rem;
 }
 
@@ -112,6 +112,11 @@ footer{
     justify-content: space-between;
 }
 
+.copyright p{
+    font-size: 1.1rem;
+}
+
 .copyright p a{
     text-decoration: none;
+    color: white;
 }
