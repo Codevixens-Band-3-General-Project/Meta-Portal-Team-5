@@ -110,7 +110,7 @@ main{
 
 .contactUs-container{
     margin: auto;
-    width: 90%;
+    width: 87%;
 }
 
 .contactUs-title{
@@ -126,7 +126,7 @@ main{
 }
 
 .contactus-details{
-    width: 30%;
+    width: 25%;
     border: 1px solid red;
 }
 
