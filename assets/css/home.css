@@ -8,6 +8,7 @@ body {
     height: 100vh;
     background: linear-gradient(90deg,#1b121d 0,#120f2f 50%,#1b121d 100%);
     color: #c3c6d3;
+    font-family: 'Nunito', sans-serif;
 }
   
 .d-flex{
