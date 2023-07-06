@@ -16,7 +16,7 @@
     top: 0;
     right: 0;
     left: 0;
-    border-bottom-color: 1px solid black;
+    border-bottom: 1px solid black;
 }
 
 .logo{
@@ -25,7 +25,7 @@
 
 .buy-now a{
     background-color: #6f9a37;
-    color: white;
+    color: #9ba0b8;
     padding: 8px 22px;
     font-size: 0.9rem;
     border: none;
@@ -41,7 +41,7 @@
 
 
 .menu-icon span{
-    color: white;
+    color: #9ba0b8;
     font-size: 1.7rem;
 }
 
@@ -75,17 +75,29 @@ ul{
 }
 
 ul li{
-    color: white;
+    color: #9ba0b8;
     list-style: none;
     font-size: 1.2rem;
 }
 
 .connect-button button{
     background-color: inherit;
-    color: white;
+    color: #9ba0b8;
     padding: 15px 30px;
     font-size: 0.9rem;
     border: 3px solid purple;
     border-radius: 5px;
     font-weight: 700;
+}
+
+
+/* FOOTER */
+
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-top: 10rem;
+    border-top: 1px solid black;
 }
