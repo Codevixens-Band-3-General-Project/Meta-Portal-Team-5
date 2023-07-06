@@ -100,7 +100,8 @@ ul li{
 /* MAIN */
 
 main{
-    padding-top: 6rem;
+    padding-top: 18rem;
+    border: 1px solid red;
 }
 
 
