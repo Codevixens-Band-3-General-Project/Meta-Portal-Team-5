@@ -7,6 +7,7 @@
 body {
     height: 100vh;
     background: linear-gradient(90deg,#1b121d 0,#120f2f 50%,#1b121d 100%);
+    color: #c3c6d3;
 }
   
 .d-flex{
@@ -30,7 +31,7 @@ body {
 
 .buy-now a{
     background-color: #6f9a37;
-    color: #9ba0b8;
+    color: #c3c6d3;
     padding: 8px 22px;
     font-size: 0.9rem;
     border: none;
@@ -46,7 +47,7 @@ body {
 
 
 .menu-icon span{
-    color: #9ba0b8;
+    color: #c3c6d3;
     font-size: 1.7rem;
 }
 
@@ -80,14 +81,13 @@ ul{
 }
 
 ul li{
-    color: #9ba0b8;
     list-style: none;
     font-size: 1.2rem;
 }
 
 .connect-button button{
     background-color: inherit;
-    color: #9ba0b8;
+    color: #c3c6d3;
     padding: 15px 30px;
     font-size: 0.9rem;
     border: 3px solid purple;
