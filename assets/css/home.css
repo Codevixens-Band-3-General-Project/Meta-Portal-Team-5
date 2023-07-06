@@ -113,6 +113,14 @@ main{
     width: 90%;
 }
 
+.contactUs-title{
+    font-family: 'Heebo', sans-serif;
+    font-size: 4rem;
+    font-weight: 300;
+    letter-spacing: .5px;
+    margin-bottom: 7.7rem;
+}
+
 .contactus-info{
     justify-content: space-between;
 }
