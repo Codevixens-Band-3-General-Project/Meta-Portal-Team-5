@@ -127,17 +127,25 @@ main{
 
 .contactus-details{
     width: 30%;
+    border: 1px solid red;
+}
+
+.contactus-details_text div{
+    margin-bottom: 1.6rem;
+}
+
+.phone-email section{
+    margin-bottom: 2rem;
+}
+
+.contactUs-header{
+    margin-bottom: 0.8rem;
 }
 
 
 /* FOOTER */
 
 footer{
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin-top: 10rem;
     border-top: 1px solid gray;
     padding: 2rem 5rem;
 }
