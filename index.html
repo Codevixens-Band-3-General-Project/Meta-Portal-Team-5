@@ -103,17 +103,27 @@
                 <form action="">
                     <section>
                         <div>
-
+                            <input type="text" id="name" name="Name" placeholder="Your Name" required>
+                            <input type="number" id="phone" name="Phone" placeholder="Your Phone (optional)">
                         </div>
 
                         <div>
-
+                            <input type="email" id="email" name="Email" placeholder="Your Email" required>
+                            <input type="text" id="topic" name="Topic" placeholder="Topic (optional)">
                         </div>
                     </section>
 
-                    <div>
-                        
-                    </div>
+                    <section>
+                        <textarea name="Meessage" id="message" cols="30" rows="10" placeholder="Your Message"></textarea>
+                    </section>
+
+                    <section>
+                        <input type="checkbox" name="Okay" id="okay"> <label for="Okay">I'm okay in getting emails and havin that activity tracked to improve my experience</label>
+                    </section>
+
+                    <section>
+                        <button type="submit">SEND MESSAGE</button>
+                    </section>
                 </form>
             </section>
 
