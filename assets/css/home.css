@@ -148,6 +148,11 @@ main{
 .contactUs-header + p{
     color: #ddd;
     font-weight: 300;
+    transition: color 0.3s ease;
+}
+
+.contactus-number:hover, .contactus-email:hover{
+    color: #cc00ff;
 }
 
 .contactus-number{
