@@ -215,6 +215,12 @@ textarea, input{
     text-indent: 2rem;
     color: #ffffff26;
     font-size: 1rem;
+    transition: border 0.3s ease;
+}
+
+textarea:focus, input:focus{
+    border: 2px solid purple;
+    color: white;
 }
 
 textarea{
