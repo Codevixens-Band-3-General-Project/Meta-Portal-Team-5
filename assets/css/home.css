@@ -211,8 +211,20 @@ textarea{
 
 textarea, input{
     border-radius: 5px;
-    border: 1px solid #ffffff26;
+    border: 2px solid #ffffff26;
+    text-indent: 2rem;
+    color: #ffffff26;
+    font-size: 1rem;
 }
+
+textarea{
+    padding-top: 1rem;
+    padding-left: 0.5rem;
+    text-indent: 0.3rem;
+    font-size: 1rem;
+    font-family: 'Raleway', sans-serif;
+}
+
 
 .check{
     margin-bottom: 2rem;
