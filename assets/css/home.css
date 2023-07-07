@@ -105,7 +105,6 @@ ul li{
 
 main{
     padding-top: 18rem;
-    /* border: 1px solid red; */
 }
 
 
@@ -114,6 +113,7 @@ main{
 .contactUs-container{
     margin: auto;
     width: 87%;
+    margin-bottom: 9rem;
 }
 
 .contactUs-title{
@@ -180,10 +180,6 @@ main{
     margin-bottom: 0.8rem;
 }
 
-form{
-    /* border: 1px solid red; */
-}
-
 .personal-info{
     justify-content: space-between;
 }
@@ -234,6 +230,35 @@ textarea{
 
 .check{
     margin-bottom: 2rem;
+}
+
+input[type=checkbox]{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: transparent;
+    width: 20px;
+    height: 20px;
+}
+
+.check label{
+    margin-left: 1rem;
+    color: #9ba0b8;
+    font-size: 1.1rem;
+}
+
+.btn{
+    width: 22%;
+}
+.btn button{
+    background-color: inherit;
+    color: #c3c6d3;
+    padding: 30px 40px;
+    font-size: 0.9rem;
+    border: 3px solid purple;
+    border-radius: 5px;
+    font-weight: 700;
+    width: 100%;
 }
 
 
