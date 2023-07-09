@@ -298,7 +298,7 @@ footer{
 
     .main-footer_container{
         margin: auto;
-        width: 95%;
+        width: 90%;
     }
     .contactus-info{
         flex-wrap: wrap;
@@ -313,3 +313,75 @@ footer{
     }
 }
 
+@media screen and (max-width: 940px) {
+    
+    .contactus-details_text{
+        font-size: 2rem;
+    }
+    
+    .contactUs-header{
+        margin-top: 3rem;
+        font-size: 2rem
+    }
+    
+    .contactUs-header + p{
+        font-size: 3.2rem;
+        transition: color 0.3s ease;
+    }
+
+    .personal-info{
+        flex-wrap: wrap;
+    }
+
+    .info{
+        width: 100%;
+    }
+
+    .info input{
+        margin-bottom: 2.2rem;
+        height: 9rem;
+    }
+
+    textarea, input{
+        font-size: 2rem;
+    }
+
+    .check{
+        margin-bottom: 4rem;
+    }
+    
+    .check label{
+        font-size: 1.9rem;
+    }
+
+    .btn{
+        width: 60%;
+    }
+
+    .btn button{
+        padding: 50px 70px;
+        font-size: 1.6rem;
+    }
+
+    .footer-container{
+        flex-wrap: wrap;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+        
+    }
+
+    .footer-pages li, .copyright p{
+        font-size: 2rem;
+        line-height: 4rem;
+    }
+
+    .contactUs-container{
+        margin-bottom: 18rem;
+    }
+
+    input[type=checkbox]{
+        width: 30px;
+        height: 30px;
+    }
+    
+}
