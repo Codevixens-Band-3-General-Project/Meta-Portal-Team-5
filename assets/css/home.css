@@ -313,7 +313,7 @@ footer{
     }
 }
 
-@media screen and (max-width: 940px) {
+@media screen and (max-width: 912px) {
     
     .contactus-details_text{
         font-size: 2rem;
