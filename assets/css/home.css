@@ -273,6 +273,14 @@ input[type=checkbox]{
 
 footer{
     border-top: 1px solid #ffffff26;
+    margin-top: 7rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.footer-container{
+    margin: auto;
+    width: 87%;
 }
 
 .footer-container{
