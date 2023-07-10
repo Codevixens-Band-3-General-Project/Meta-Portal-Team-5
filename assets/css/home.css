@@ -287,10 +287,20 @@ footer{
     font-size: 1rem;
 }
 
-.copyright p a{
+.copyright p a, .footer-pages a{
     text-decoration: none;
     color: white;
 }
+
+.footer-pages a{
+    color: #9ba0b8;
+}
+
+.footer-pages a:hover{
+    text-decoration: underline;
+    color: #cc00ff;
+}
+
 
 /* FOOTER FOR SMALLER SCREENS */
 
