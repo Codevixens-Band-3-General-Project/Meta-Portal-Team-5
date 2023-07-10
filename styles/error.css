@@ -1,0 +1,38 @@
+body{
+    background-color: #7000ff;
+    background-color: #cc00ff;
+    text-align: center;
+    margin: 0;
+    margin-top: 5%;
+}
+h3{
+    font-family: 'Heebo', sans-serif;
+      color: rgb(27, 14, 55);
+    font-size: 97.68px;
+    font-weight: 900;
+    line-height: 97.68px;
+   
+    background-clip: text;
+    }
+
+h4 {font-family: 'Heebo', sans-serif;
+    color: rgb(221, 221, 221);
+    font-size: 36px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    margin: 0;
+    margin-bottom: 20px;
+}   
+p{
+    font-family: 'Nunito', sans-serif;
+    color: rgb(155, 160, 184);
+    box-sizing: border-box;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25.92px;
+    margin-bottom: 22px;
+}
+.empty{
+    height: 10%;
+    width: 30%;
+}
