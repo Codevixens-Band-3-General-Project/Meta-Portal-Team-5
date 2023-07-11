@@ -7,32 +7,43 @@ body{
 }
 h3{
     font-family: 'Heebo', sans-serif;
-      color: rgb(27, 14, 55);
-    font-size: 97.68px;
+    color: rgb(27, 14, 55);
+    font-size: 200px;
     font-weight: 900;
-    line-height: 97.68px;
-   
+    line-height: 200px;
+    filter: drop-shadow(rgba(204, 0, 255, 0.15)0px 5px 20px);
     background-clip: text;
+    letter-spacing: 2px;
+   
     }
 
 h4 {font-family: 'Heebo', sans-serif;
     color: rgb(221, 221, 221);
+    box-sizing: border-box;
     font-size: 36px;
     font-weight: 300;
     letter-spacing: 0.5px;
-    margin: 0;
+    line-height: 36px;
+    vertical-align: baseline;
     margin-bottom: 20px;
+    z-index: 5;
 }   
 p{
     font-family: 'Nunito', sans-serif;
     color: rgb(155, 160, 184);
     box-sizing: border-box;
+    letter-spacing: normal;
+    margin-block-end: 22px;
+    margin-inline-end: 140px;
+    margin-inline-start: 140px;
     font-weight: 400;
     font-size: 18px;
     line-height: 25.92px;
     margin-bottom: 22px;
+    vertical-align: baseline;
+    text-align: center;
 }
 .empty{
-    height: 10%;
+    height: 50%;
     width: 30%;
 }
