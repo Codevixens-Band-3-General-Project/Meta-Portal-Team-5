@@ -25,3 +25,19 @@ main{
 .share i{
     color: #9ba0b8;
 }
+
+.home-blog{
+    gap: 0.8rem;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.home-blog a{
+    color: #9ba0b8;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.home-blog a:hover{
+    color: purple;
+}
