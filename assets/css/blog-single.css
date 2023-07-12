@@ -14,6 +14,10 @@ main{
     width: 75%;
 }
 
+.single-blog-text_container{
+    width: 68%;
+}
+
 .share{
     font-size: 1.1rem;
     margin-bottom: 1rem;
@@ -242,9 +246,41 @@ main{
     padding-bottom: 50px;
 }
 
+.reply{
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #ddd;
+    margin-bottom: 2rem;
+}
+
+.reply + p{
+    font-size: 1.1rem;
+    color: #ddd;
+    margin-bottom: 1.8rem;
+}
+
+textarea{
+    margin-bottom: 2rem;
+}
+
+.input-div_container{
+    margin-bottom: 2rem;
+}
+
+.input-div{
+    width: 48%;
+}
+.input-div input{
+    width: 100%;
+    background: transparent;
+    height: 70px;
+}
+
+.post, .input-div_container{
+    justify-content: space-between;
+}
 
 
-
-
-
-
+/* .single-img img{
+    width: 100%;
+} */
