@@ -70,6 +70,54 @@ main{
     font-size: 1.1rem;
 }
 
+.about-author{
+    background-color: #1b121d;
+    padding: 50px;
+    margin-top: 3.3rem;
+    border-radius: 3px;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.author-info{
+    width: 73%;
+    align-items: center;
+}
+
+.author-picture img{
+    width: 160px;
+    height: 160px;
+    border-radius: 8px;
+}
+
+.author-name{
+    font-size: 1.5rem;
+    font-family: 'Heebo',sans-serif;
+    font-weight: 300;
+    color: #ddd;
+    margin-bottom: 1rem;
+}
+
+.author-name + p{
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+
+.about-author i{
+    padding-right: 1.1rem;
+    color: #9ba0b8;
+    font-size: 1.2rem;
+}
+
+.tags{
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.tags span{
+    color: #ddd;
+}
+
 
 
 
