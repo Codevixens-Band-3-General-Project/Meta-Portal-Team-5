@@ -41,3 +41,16 @@ main{
 .home-blog a:hover{
     color: purple;
 }
+
+.admin-comment{
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+.admin-comment a{
+    color: #9ba0b8;
+    text-decoration: none;
+    background-color: black;
+    padding: 5px 15px;
+    border-radius: 100px;
+}
+
