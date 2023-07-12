@@ -1,3 +1,12 @@
+body{
+    text-align: center;
+    background: #03001e;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #fdeff9, #66104f, #7303c0, #03001e);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #471038, #33192c, #7303c0, #03001e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.lock-content{
+    margin-top: 10%;
+}
 h3{
     font-family: 'Heebo', sans-serif;
     font-weight: 300;
@@ -16,11 +25,36 @@ p{
     line-height: 25.92px;
 }
 .password-box{
-background-color: rgb(0, 0, 0);
+
 font-size: 16px;
 font-family: 'Heebo' , Arial;
 font-weight: 400;
 height: 50px;
 line-height: 50px;
 margin-right: 10px;
+padding-left: 190px;
+color: #fdeff9;
+background-color: #2c0744b0;
+border: 1px solid whitesmoke;
+border-radius: 10px;
 }
+.authenticate{
+    color: rgb(221, 221, 221);
+    background-color: #2c0744b0;
+    height: 50px;
+    padding-top: 0px;
+    padding-left: 34px;
+    padding-right: 34px;
+    cursor: pointer;
+    font-family: 'Heebo', sans-serif;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-stretch: 100%;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    line-height: 50px;
+    text-transform: uppercase;
+    border-color: rgb(221, 221, 221);
+    border-radius: 10px;
+}
+
