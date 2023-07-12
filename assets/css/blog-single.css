@@ -189,6 +189,59 @@ main{
     height: 100%;
 }
 
+.three-comment{
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-bottom: 4rem;
+}
+
+.comment-img img{
+    width: 80px;
+    height: 80px;
+    border-radius: 100px;
+    margin-right: 2rem;
+}
+
+.comment-container{
+    margin-bottom: 2rem;
+}
+
+.commenter-name{
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #ddd;
+    margin-bottom: 0.5rem;
+}
+
+.comment-date{
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
+}
+
+.comment-date + p{
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+
+.comment-container a{
+    color: #9ba0b8;
+    text-decoration: none;
+    font-size: 0.9rem;
+    border: 1px solid #9ba0b8;
+    padding: 2px 6px;
+    margin-right: 3px;
+    border-radius: 3px;
+}
+
+.a{
+    margin-top: 1rem;
+}
+
+.text{
+    border-bottom: 1px solid #9ba0b8;
+    padding-bottom: 50px;
+}
+
 
 
 
