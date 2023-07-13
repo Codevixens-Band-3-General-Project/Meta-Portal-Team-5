@@ -134,14 +134,19 @@ main{
     padding-top: 18rem;
 }
 
-.main-footer_container{
+/* .main-footer_container{
     margin: auto;
     width: 87%;
-}
+} */
 
 
 
 /* COLLECTION */
+
+.collection-container{
+    margin: auto;
+    width: 87%;
+}
 
 .collection-img_container{
     justify-content: space-between;
@@ -204,6 +209,11 @@ main{
 }
 
 /* ROADMAP */
+.roadmap-container{
+    margin: auto;
+    width: 87%;
+}
+
 .dashed-border{
     border: 1px dashed #9ba0b8;
     height: 7rem;
@@ -263,6 +273,11 @@ main{
 }
 
 /* LATEST ARTICLE */
+
+.blog-article-container{
+    margin: auto;
+    width: 87%;
+}
 
 .article-flex-content{
     width: 48%;
@@ -354,6 +369,8 @@ main{
 /* MINT */
 
 .mint-container{
+    margin: auto;
+    width: 87%;
     justify-content: space-between;
 }
 
@@ -439,8 +456,8 @@ main{
 /* CONTACT US */
 
 .contactUs-container{
-    /* margin: auto;
-    width: 87%; */
+    margin: auto;
+    width: 87%;
     margin-bottom: 9rem;
 }
 
