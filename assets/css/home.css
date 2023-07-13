@@ -6,9 +6,34 @@
 
 body {
     height: 100vh;
-    background: linear-gradient(90deg,#1b121d 0,#120f2f 50%,#1b121d 100%);
+    /* background: linear-gradient(90deg,#1b121d 0,#120f2f 50%,#1b121d 100%); */
     color: #c3c6d3;
+    position: relative;
     font-family: 'Nunito', sans-serif;
+    background: #1b121d;
+    background: -moz-linear-gradient(90deg,#1b121d 0,#120f2f 50%,#1b121d 100%);
+    background: -webkit-linear-gradient(90deg,#1b121d 0,#120f2f 50%,#1b121d 100%);
+    background: linear-gradient(90deg,#1b121d 0,#120f2f 50%,#1b121d 100%);
+}
+
+body:after {
+    content: '';
+    top: 42.8%;
+    right: 25%;
+    background-color: #7000ff;
+    -webkit-filter: blur(150px);
+    -o-filter: blur(150px);
+    filter: blur(150px)
+}
+
+body:before {
+    content: '';
+    top: 27.5%;
+    left: 23.9%;
+    background-color: #cc00ff;
+    -webkit-filter: blur(150px);
+    -o-filter: blur(150px);
+    filter: blur(150px)
 }
   
 .d-flex{
