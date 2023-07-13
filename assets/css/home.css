@@ -324,6 +324,33 @@ main{
     font-size: 1.1rem;
 }
 
+/* MINT */
+
+.mint-container{
+    justify-content: space-between;
+}
+
+.mint-text{
+    width: 35%
+}
+
+.mint-card-container{
+    width: 60%;
+}
+
+.mint-card{
+    width: 50%;
+}
+
+.mint-numbers{
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.mint_img-video img{
+    width: 100%;
+}
+
 
 /* CONTACT US */
 
