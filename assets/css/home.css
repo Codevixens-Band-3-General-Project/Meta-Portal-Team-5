@@ -28,6 +28,7 @@ body {
     right: 0;
     left: 0;
     border-bottom: 1px solid black;
+    z-index: 1;
 }
 
 .logo{
@@ -73,6 +74,7 @@ body {
     left: 0;
     right: 0;
     padding: 1.5rem;
+    z-index: 2;
 }
 
 .nav-pages{
@@ -331,7 +333,31 @@ main{
 }
 
 .mint-text{
-    width: 35%
+    width: 32%
+}
+
+.mint-text-main{
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+    color: #9ba0b8;
+}
+
+.mint-text-title{
+    font-size: 2.2rem;
+    background: linear-gradient(to right,#cc00ff,#cc00ff);
+    -webkit-background-clip: text;
+    -webkit-text-stroke: 1px transparent;
+    color: #ddd;
+    font-weight: 300;
+    /* font-family: 'Heebo',sans-serif; */
+    filter: drop-shadow(0 5px 20px rgba(204,0,255,.15));
+}
+
+.small-divider{
+    width: 8rem;
+    border: 1px solid #ffffff26;
+    margin: 1.5rem 0 1.5rem 0;
+
 }
 
 .mint-card-container{
@@ -339,7 +365,40 @@ main{
 }
 
 .mint-card{
-    width: 50%;
+    width: 46%;
+    height: 32vh;
+    border: 1px solid #ffffff26;
+    border-radius: 10px;
+    padding: 1.5rem;
+    margin-bottom: 4rem;
+}
+
+.mint-card div{
+    background-color: #ffffff08;
+    height: 25.5vh;
+    border-radius: 10px;
+    padding-left: 4rem;
+    padding-top: 2rem;
+    /* z-index: 2; */
+}
+
+.mint-num{
+    font-size: 4rem;
+    /* color: ; */
+    background: linear-gradient(to right,#cc00ff,#cc00ff);
+    -webkit-background-clip: text;
+    -webkit-text-stroke: 4px transparent;
+    color: #160f1a;
+    font-weight: 700;
+    font-family: 'Heebo',sans-serif;
+    filter: drop-shadow(0 5px 20px rgba(204,0,255,.15));
+}
+
+.mint-num + p{
+    font-size: 1rem;
+    color: #9ba0b8;
+    font-weight: 700;
+    
 }
 
 .mint-numbers{
@@ -366,6 +425,13 @@ main{
     font-weight: 300;
     letter-spacing: .5px;
     margin-bottom: 7.7rem;
+    background: linear-gradient(to right,#cc00ff,#cc00ff);
+    -webkit-background-clip: text;
+    -webkit-text-stroke: 1.3px transparent;
+    color: #ddd;
+    font-weight: 300;
+    /* font-family: 'Heebo',sans-serif; */
+    filter: drop-shadow(0 5px 20px rgba(204,0,255,.15));
 }
 
 .contactus-info{
