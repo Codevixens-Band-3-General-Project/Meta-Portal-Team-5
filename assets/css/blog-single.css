@@ -9,13 +9,23 @@ main{
     font-family: 'Nunito',sans-serif;
 }
 
-.main-container{
+/* .main-container{
     margin: auto;
     width: 75%;
-}
+} */
 
 .single-blog-text_container{
-    width: 68%;
+    /* width: 68%; */
+    margin-left: 15%;
+}
+
+.article-subscribe{
+    border: 1px solid green;
+}
+
+.share-home{
+    margin: auto;
+    width: 70%;
 }
 
 .share{
@@ -46,6 +56,11 @@ main{
     color: purple;
 }
 
+.admin-comment-container{
+    margin: auto;
+    width: 70%;
+}
+
 .admin-comment{
     margin-top: 3rem;
     margin-bottom: 2rem;
@@ -54,9 +69,61 @@ main{
     color: #9ba0b8;
     text-decoration: none;
     background-color: black;
-    padding: 5px 15px;
+    padding: 10px 15px;
     border-radius: 100px;
+    margin-right: 0.5rem;
 }
+
+
+
+.article, .sub-follow{
+    border: 1px solid yellow;
+}
+.article{
+    width: 58%;
+    margin-right: 5rem;
+}
+
+.sub-follow{
+    width: 23%;
+}
+
+.oval-text{
+    padding: 0.8rem 1.5rem;
+    border: 2px solid #9ba0b8;
+    border-radius: 30px;
+    text-align: center;
+    color: #ddd;
+    font-weight: 700;
+    font-size: 0.8rem;
+    margin-bottom: 2rem;
+}
+
+.legend-article{
+    border: 1px solid #ffffff26;
+    margin-bottom: 1.2rem;
+    padding: 1.5rem 1rem;
+    border-radius: 5px;
+}
+
+.article-link1, .article-date{
+    text-decoration: none;
+    /* color: #9ba0b8; */
+    display: block;
+}
+
+.article-link1{
+    font-size: 1.2rem;
+    color: #ddd;
+    margin-bottom: 0.8rem;
+    font-family: 'Heebo',sans-serif;
+}
+
+.article-date{
+    color: #9ba0b8;
+    font-size: 0.9rem;
+}
+
 
 .single-blog-text-heading{
     font-size: 2rem;
@@ -72,6 +139,42 @@ main{
 .single-blog_text{
     margin-bottom: 2rem;
     font-size: 1.1rem;
+    font-weight: 400;
+    font-family: 'Nunito', sans-serif;
+}
+
+.lifestyle-num{
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    border: 1px solid pink;
+    align-items: center;
+}
+
+.lifestyle{
+    font-weight: 700;
+    font-size: 0.9rem;
+    color: #ddd;
+}
+
+.black-num1{
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+
+
+}
+
+.black-num1 p{
+    font-size: 0.7rem;
+    color: #ddd;
+}
+
+.about-author-container{
+    margin: auto;
+    width: 70%;
 }
 
 .about-author{
@@ -81,6 +184,7 @@ main{
     border-radius: 3px;
     justify-content: space-between;
     margin-bottom: 2rem;
+    
 }
 
 .author-info{
