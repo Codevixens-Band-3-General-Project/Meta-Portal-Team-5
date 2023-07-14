@@ -11,12 +11,12 @@ main{
 
 
 .single-blog-text_container{
-    margin-left: 15%;
+    margin-left: 12.5%;
 }
 
 .share-home{
     margin: auto;
-    width: 70%;
+    width: 75%;
 }
 
 .share{
@@ -49,7 +49,7 @@ main{
 
 .admin-comment-container{
     margin: auto;
-    width: 70%;
+    width: 75%;
 }
 
 .admin-comment{
@@ -167,14 +167,14 @@ main{
     width: 40px;
     height: 40px;
     position: absolute;
-    right: 11.1rem;
+    right: 11.55rem;
 }
 
 .black-num2 p{
     font-size: 1rem;
 }
 .about-author-container{
-    margin-left: 15%;
+    margin-left: 12.5%;
     width: 50%;
 }
 
@@ -241,7 +241,7 @@ main{
 
 .post{
     margin: auto;
-    width: 70%;
+    width: 75%;
 }
 
 .right-img{
@@ -327,33 +327,57 @@ main{
     margin-bottom: 1rem;
 }
 
-.comment-date + p{
+/* .comment-date + p{
     font-size: 1.1rem;
     margin-bottom: 1rem;
-}
+} */
 
-.comment-container a{
+.reply-edit a{
     color: #9ba0b8;
     text-decoration: none;
     font-size: 0.9rem;
-    border: 1px solid #9ba0b8;
+    /* border: 1px solid #9ba0b8; */
     padding: 2px 6px;
-    margin-right: 3px;
-    border-radius: 3px;
+    /* margin-right: 1rem; */
+    
 }
 
 .contact-comment{
     margin: auto;
-    width: 70%;
+    width: 75%;
 }
 
-.a{
+/* .a{
     margin-top: 1rem;
-}
+} */
 
 .text{
-    border-bottom: 1px solid #9ba0b8;
+    border-bottom: 1px solid #ffffff26;
     padding-bottom: 50px;
+}
+
+.p-bottom{
+    margin-bottom: 2rem;
+    font-size: 1.1rem;
+    /* margin-bottom: 1rem; */
+}
+
+.reply-edit{
+    /* border: 1px solid red; */
+    width: 12%;
+    justify-content: space-between;
+    margin-top: 2rem;
+
+}
+
+.reply-edit-border{
+    border: 1px solid #ffffff26;
+    border-radius: 3px;
+}
+
+.span span{
+    font-size: 1.3rem;
+    font-weight: 700;
 }
 
 .reply{
@@ -361,13 +385,19 @@ main{
     font-weight: 700;
     color: #ddd;
     margin-bottom: 2rem;
+    margin-top: 7rem;
 }
 
 .reply + p{
     font-size: 1.1rem;
-    color: #ddd;
+    color: #9ba0b8;
     margin-bottom: 1.8rem;
 }
+
+/* .reply-icon{
+    justify-content: center;
+    align-items: center;
+} */
 
 textarea{
     margin-bottom: 2rem;
