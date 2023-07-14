@@ -75,7 +75,7 @@ main{
 }
 
 .about-author{
-    background-color: #1b121d;
+    background-color: #0000004d;
     padding: 50px;
     margin-top: 3.3rem;
     border-radius: 3px;
@@ -128,7 +128,7 @@ main{
 }
 
 .prev-post{
-    background-color: #1b121d;
+    background-color: #0000004d;
     padding-top: 120px;
     padding-bottom: 120px;
     margin-bottom: 6rem;
@@ -138,6 +138,11 @@ main{
     margin-top: 70px;
     margin-bottom: 70px;
 } */
+
+.post{
+    margin: auto;
+    width: 70%;
+}
 
 .right-img{
     margin-left: 2rem;
@@ -235,6 +240,11 @@ main{
     padding: 2px 6px;
     margin-right: 3px;
     border-radius: 3px;
+}
+
+.contact-comment{
+    margin: auto;
+    width: 70%;
 }
 
 .a{
