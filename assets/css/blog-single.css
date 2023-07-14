@@ -9,18 +9,9 @@ main{
     font-family: 'Nunito',sans-serif;
 }
 
-/* .main-container{
-    margin: auto;
-    width: 75%;
-} */
 
 .single-blog-text_container{
-    /* width: 68%; */
     margin-left: 15%;
-}
-
-.article-subscribe{
-    border: 1px solid green;
 }
 
 .share-home{
@@ -74,11 +65,6 @@ main{
     margin-right: 0.5rem;
 }
 
-
-
-/* .article, .sub-follow{
-    border: 1px solid yellow;
-} */
 .article{
     width: 58%;
     margin-right: 5rem;
@@ -252,11 +238,6 @@ main{
     padding-bottom: 120px;
     margin-bottom: 6rem;
 }
-
-/* .post{
-    margin-top: 70px;
-    margin-bottom: 70px;
-} */
 
 .post{
     margin: auto;
