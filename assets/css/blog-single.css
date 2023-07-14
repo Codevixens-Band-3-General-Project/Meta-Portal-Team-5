@@ -76,9 +76,9 @@ main{
 
 
 
-.article, .sub-follow{
+/* .article, .sub-follow{
     border: 1px solid yellow;
-}
+} */
 .article{
     width: 58%;
     margin-right: 5rem;
@@ -97,6 +97,10 @@ main{
     font-weight: 700;
     font-size: 0.8rem;
     margin-bottom: 2rem;
+}
+
+.oval-text-bb{
+    margin-top: 4rem;
 }
 
 .legend-article{
@@ -146,8 +150,8 @@ main{
 .lifestyle-num{
     justify-content: space-between;
     margin-bottom: 1rem;
-    border: 1px solid pink;
     align-items: center;
+    position: relative;
 }
 
 .lifestyle{
@@ -156,7 +160,7 @@ main{
     color: #ddd;
 }
 
-.black-num1{
+.black-num1, .black-num2{
     background-color: black;
     align-items: center;
     justify-content: center;
@@ -167,14 +171,25 @@ main{
 
 }
 
-.black-num1 p{
+.black-num1 p, .black-num2 p{
     font-size: 0.7rem;
     color: #ddd;
+    font-family: 'Heebo', sans-serif;
 }
 
+.black-num2{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 11.1rem;
+}
+
+.black-num2 p{
+    font-size: 1rem;
+}
 .about-author-container{
-    margin: auto;
-    width: 70%;
+    margin-left: 15%;
+    width: 50%;
 }
 
 .about-author{
@@ -211,7 +226,7 @@ main{
     margin-bottom: 1rem;
 }
 
-.about-author i{
+.about-author i, .sub-fol i{
     padding-right: 1.1rem;
     color: #9ba0b8;
     font-size: 1.2rem;
