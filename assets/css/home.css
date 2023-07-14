@@ -366,14 +366,30 @@ main{
     font-size: 1.1rem;
 }
 
+/* COUNTDOWN */
+.countdown-container{
+    border-top: 1px solid #ffffff26;
+    border-bottom: 1px solid #ffffff26;
+    margin-bottom: 10rem;
+    justify-content: space-between;
+    padding: 10rem;
+    color: #9ba0b8;
+    font-size: 1.1rem;
+}
+
+.span-center{
+    justify-content: center;
+    align-items: center;
+}
+
+
+
 /* LEGENDS */
 .legend-container{
     justify-content: space-between;
     width: 93%;
     margin-bottom: 10rem;
 }
-
-
 
 .legend-text{
     width: 32%;
@@ -395,10 +411,10 @@ main{
     padding: 1rem;
     border-radius: 10px;
     border: 1px solid #ffffff26;
-    /* margin-left: 20rem; */
     position: absolute;
     left: 23rem;
 }
+
 .legend-img img{
     width: 100%;
     border-radius: 10px;
