@@ -1,38 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
 body{
-    background-color: #7000ff;
-    background-color: #cc00ff;
+    background: #03001e;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #fdeff9, #ec38bc, #7303c0, #03001e);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #fdeff9, rgb(0, 0, 37) , #7303c0, #03001e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     text-align: center;
     margin: 0;
     margin-top: 5%;
 }
+.whole-container{
+    width: 100%;
+}
 h3{
     font-family: 'Heebo', sans-serif;
-      color: rgb(27, 14, 55);
-    font-size: 97.68px;
+    color: rgb(27, 14, 55);
+    font-size: 200px;
     font-weight: 900;
-    line-height: 97.68px;
-   
+    line-height: 200px;
+    filter: drop-shadow(rgba(204, 0, 255, 0.15)0px 5px 20px);
     background-clip: text;
+    letter-spacing: 2px;
+    margin-bottom: 35px;
+    text-shadow: 2px 3px #ec38bc;
+   
     }
 
 h4 {font-family: 'Heebo', sans-serif;
     color: rgb(221, 221, 221);
+    box-sizing: border-box;
     font-size: 36px;
     font-weight: 300;
     letter-spacing: 0.5px;
-    margin: 0;
-    margin-bottom: 20px;
+    line-height: 36px;
+    vertical-align: baseline;
+    margin-bottom: 30px;
+    z-index: 5;
+    text-shadow: 2px 3px #ec38bc;
 }   
 p{
     font-family: 'Nunito', sans-serif;
     color: rgb(155, 160, 184);
-    box-sizing: border-box;
+    margin-left: 35%;
+    letter-spacing: normal;
+    text-align: center;
     font-weight: 400;
     font-size: 18px;
-    line-height: 25.92px;
+    line-height: 25.2px;
     margin-bottom: 22px;
+    width: 450px;
+    
+}
+.search-container{
+    display: flex;
+    text-align: center;
+    vertical-align: top;
 }
 .empty{
-    height: 10%;
-    width: 30%;
+    padding-top: 25px;
+    padding-left: 150px;
+    padding-right: 100px;
+    background-color: transparent;
+    margin-left: 400px;
+    border: 2px solid #7303c0;
+    border-radius: 5px;
+}
+
+
+button.search-icon{
+    background-color:transparent;
+    color: black;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    margin-left: 10px;
+    padding-top: 34px;
+    padding-left: 100px;
+    padding-right: 60px;
+    border: 4px solid #7303c0;
+    border-radius: 10px;
 }
