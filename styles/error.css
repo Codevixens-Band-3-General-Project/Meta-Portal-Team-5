@@ -63,6 +63,7 @@ p{
     display: flex;
     text-align: center;
     vertical-align: top;
+    
 }
 .empty{
     padding-top: 25px;
@@ -78,21 +79,26 @@ p{
 button.search-icon-box{
     margin-left: 10px;
     padding-right: 10px;
-    padding-left: 50px;
+    padding-left: 60px;
     padding-bottom: 10px;
-    background-color: rgb(82, 2, 161);
+    background-color: rgb(86, 16, 155);
     border: none;
     padding-top: 10px;
-    border-radius: 10px;
+    border-radius: 9px;
     cursor: pointer;
     
 }
 
 .search-icon{
     height: 30px;
+    padding-top: 12px;
+    padding-right: 8px;
+    padding-top: 5px;
+    padding-bottom: 2px;
     border: none;
     width: 30px;
     margin-right: 25px;
+    background-color: transparent;
     
     
    
@@ -101,7 +107,7 @@ button.search-icon-box{
     left: 0;
     margin: 0;
     right: 0;
-    height: 30px;
+    
     top: 0;
     position: fixed;
    
@@ -113,7 +119,7 @@ button.search-icon-box{
     align-items: center;
     margin-top: 0;
     background-color: rgb(49, 47, 47);
-    margin-bottom: 4%;
+    margin-bottom: 0;
 
 }
 
@@ -123,7 +129,11 @@ section.second-top{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-left: 30px;
+    margin-left: 0;
+    margin-right: -150px;
+    background-color: #03001e;
+    padding-top: 25px;
+    padding-bottom:  25px;
 }
 
 
@@ -165,23 +175,22 @@ nav>a{
 a.wallet{
     text-decoration: none;
     justify-content: end;
+    font-family: 'Heebo', sans-serif;
+    padding-right: 20px;
+    padding-left: 20px;
+    color: #fdeff9;
+    font-weight: 600;
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 3px solid rebeccapurple;
+    border-radius: 3px;
 }
 
 footer{
     margin-top: 10%;
     position: relative;
 }
-
- 
-
-padding-top: 5px;
-padding-bottom: 5px;
-margin-left: 10px;
-padding-top: 34px;
-padding-left: 100px;
-padding-right: 60px;
-border: 4px solid #7303c0;
-border-radius: 10px;
 
 
 
