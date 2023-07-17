@@ -793,7 +793,7 @@ footer{
 
 /* FOOTER FOR SMALLER SCREENS */
 
-@media screen and (max-width: 1204px) {
+@media screen and(max-width: 1204px) {
 
     .main-footer_container{
         margin: auto;
@@ -812,7 +812,7 @@ footer{
     }
 }
 
-@media screen and (max-width: 912px) {
+@media screen and(max-width: 912px) {
     
     .contactus-details_text{
         font-size: 2rem;
