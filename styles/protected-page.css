@@ -153,3 +153,32 @@ border-radius: 10px;
     border-radius: 10px;
 }
 
+footer{
+    font-family: 'Heebo', sans-serif;
+    font-weight: 400;
+    margin-top: 50px;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: -50px;
+}
+.all-footer-content{
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.right{
+    display: inline-flex;
+    justify-content: start;
+    
+}
+div.nav-footer{
+    word-spacing: 0.2em;
+    
+    justify-content: end;
+}
+a{
+    text-decoration: none;
+    color: #fdeff9;
+}
