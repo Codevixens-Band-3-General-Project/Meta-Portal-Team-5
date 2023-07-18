@@ -182,3 +182,17 @@ a{
     text-decoration: none;
     color: #fdeff9;
 }
+a:link{
+    color: yellow;
+
+}
+
+a:visited{
+    color: white;
+
+}
+
+a:hover{
+    color: purple;
+          
+}
