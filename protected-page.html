@@ -3,17 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Protected page</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles/error.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/protected-page.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crosso$rigin>
-<link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700;800;900&display=swap" rel="stylesheet">
-    <title>error 404</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700;800;900&display=swap" rel="stylesheet">   
 </head>
 <body>
-      <header class="header">
+    <header class="header">
         <section class="first-top">
         <div class="envato-buy">
             <img src="Assets/images/envato_market-img.svg" alt="envato-mart-logo" class="envato-mart-logo">
@@ -41,25 +41,24 @@
         </div>
     </section>
       </header>
+      
+    <div class="lock-content">
+        <span class="lock" >,<img src="Assets/lock.jpg" alt=""></span>
+        <h3>Protected Page</h3>
+        <p>Please, enter the password to have access to this page.</p>
 
-
-    <div class="whole-container">
-    <div class="404-message">
-        <h3>404</h3> 
-        <h4>Page Not Found</h4>
-    </div>     
-        <p>Sorry, but the page you are looking for was moved, removed, renamed or might never existed...
-        </p>
-    <div class="search-container">
-     <form>
-        <input type="text" class="empty">
-        <button class="search-icon-box" >
-            <img src="Assets/images/search-icon.svg" class="search-icon">
-        </button>
-    </form>
     </div>
-</div>   
+    <div>
+        <form>
+            <input type="password" class="password-box">
+            <span>
+                <input type="submit" class="authenticate" value="Authenticate">
+            </span>
+        </form>
+    </div>
+
 </body>
+
 <footer>
     <div class="all-footer-content">
         <div >

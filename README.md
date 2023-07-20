@@ -8,7 +8,7 @@
 
 ### 1. The main Branch : This hold every other branches we have, other branches will be merge here after the whole coding as been done
 
-### 2. Tasks (yourname) branches: These branches are made by contributors (i.e team members front-end (HTMl, CSS, JavaScript, Technical Writers, Project Managers)) for each task e.g homepage, blog page, contact page, etc
+### 2. Tasks (yourname) branches: These branches are made by contributors (i.e team members front-end(HTMl, CSS, JavaScript, Technical Writers, Project Managers)) for each task e.g homepage, blog page, contact page, etc
 
 ## ⭐  How to make a pull request (PR)
 ### 1. Start by making a Fork of the Meta-Portal-Website-Team-5 repository. Click on the Fork symbol at the top right corner.
