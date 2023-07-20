@@ -1,8 +1,10 @@
-body{
-    text-align: center;
-    background: #03001e;  /* fallback for old browsers */
+body{ background: #03001e;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to left, #fdeff9, #66104f, #7303c0, #03001e);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to left, #471038, #33192c, #7303c0, #03001e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    text-align: center;
+    margin: 0;
+    margin-top: 5%;
 }
 
 .header{
@@ -23,19 +25,16 @@ body{
     background-color: rgb(49, 47, 47);
     margin-bottom: 0;
     
-
 }
 
 section.second-top{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-left: 0;
-    margin-right: -150px; 
+    margin-left: 0; 
     padding-top: 25px;
     padding-bottom:  5px;
 }
-
 
 .envato-mart-logo{
    height: 50px; 
@@ -82,6 +81,7 @@ nav>a{
     font-weight: 600;
    
 }
+
 a.wallet{
     text-decoration: none;
     margin-right: 220px;
