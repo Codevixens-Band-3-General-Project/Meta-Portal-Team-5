@@ -259,7 +259,64 @@ li a{
     margin-top: 50px;
     margin-bottom: 30px;
   }
- 
+
+  #sidebar .social-media{
+    margin: auto;
+  }
+
+
+/*===================================
+Scroll to To
+===================================*/
+.scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: var(--primary-color-2);
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    display: none;
+    cursor: pointer;
+  }
+  
+  .scroll-to-top svg {
+    font-size: 24px;
+    color: #fff;
+  }
+  
+  .scroll-to-top::after {
+    content: "Scroll To Top";
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    position: absolute;
+    left: 50%;
+    top: -120%;
+    transform: translate(-50%, -50%) rotate(-90deg);
+    white-space: nowrap;
+    font-size: 12px;
+    text-transform: uppercase;
+    
+  }
+  
+  .scroll-to-top.show {
+    display: block;
+  }
+  
+#close-btn{
+    color: #cc00ff;
+    font-size: 30px;
+    position: absolute;
+    z-index: 1;
+    top: 60px;
+    right: 50px;
+}
+
+
+
 
  
   
@@ -947,6 +1004,52 @@ footer{
         width: 28%;
     }
 }
+
+
+ /* Mobile styles */
+
+  @media only screen and (min-width: 320px) and (max-width: 480px) {
+   .nav-pages{
+    display: none;
+   }
+  }
+
+
+   /* Tablet styles */
+  @media only screen and (min-width: 481px) and (max-width: 768px) {
+   .nav-pages{
+    display: none;
+   }
+  }
+
+  /* Laptop styles */
+  @media only screen and (min-width: 769px) and (max-width: 1024px) {
+    
+    #close-btn{
+        display: none;
+    }
+  }
+
+
+
+   /* Desktop styles */
+  @media only screen and (min-width: 1025px) and (max-width: 1200px) {
+   
+    #close-btn{
+        display: none;
+    }
+  }
+
+
+  /* Large screen styles */
+  @media only screen and (min-width: 1201px) {
+    
+    #close-btn{
+        display: none;
+    }
+  }
+
+
 
 @media screen and(max-width: 912px) {
     
