@@ -24,15 +24,15 @@
 
          git remote add upstream https://github.com/Codevixens-Band-3-General-Project/Meta-Portal-Website-Team-5
          
-### 5. Fetch Updates from the Original Repository: Fetch the latest changes from the original repository.
+#### 5. Fetch Updates from the Original Repository: Fetch the latest changes from the original repository.
          git fetch upstream
 
-###  6. Create a New Branch for your task: Create a new branch from the base branch of the original repository.
+####  6. Create a New Branch for your task: Create a new branch from the base branch of the original repository.
          git checkout -b <yourbranchname> upstream/<main>
 
- ### 7. Make your changes or source code.
+ #### 7. Make your changes or source code.
 
- ### 8.  Stage your changes and commit:
+ #### 8.  Stage your changes and commit:
 
  #### ⚠️ Make sure not to run the commands git add . or git add *. Instead, stage your changes for each file/folder (For example if you're adding only the home.html file, run this command in your CLI)
 
@@ -40,15 +40,15 @@
 
        git commit -m "<your_commit_message>"
 
- ### 9. Push your local commits to the remote repository:
+ #### 9. Push your local commits to the remote repository:
 
        git push origin YourBranchName
 
- ### 10. Create a Pull Request!
+ #### 10. Create a Pull Request!
         Go to your forked repository on GitHub and navigate to the branch you just pushed. Click on the "New pull request" button to create a pull request from your new 
         branch to the base branch of the original repository.
 
- ### 11. Congratulations! You've successfully add your code to Meta-Portal-Website-Team-5! 🙌🏼
+ #### 11. Congratulations! You've successfully add your code to Meta-Portal-Website-Team-5! 🙌🏼
 
 
  ## ⭐  Thanks to all the Team Members
