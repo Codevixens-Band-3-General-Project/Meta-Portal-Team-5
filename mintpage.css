@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
+body {
+    background: #31023b;
+    background-attachment: fixed;
+}
+.border-box {
+    border: 1px solid white; 
+    box-sizing: border-box;
+  width: auto;
+  height: max-content;
+}
+
+.share {
+    display: flex;
+   
+}
+ .label {
+    color: #928894;
+    padding-right: 15px;
+    margin-bottom: 10px;
+}
+a {
+    color: #928894;
+}
+.legends {
+    font-family: 'Nunito Sans';
+    color: whitesmoke;
+    font-size: 30px;
+    margin-bottom: 35px;
+}
+.legend_text {
+    font-family: 'Nunito Sans';
+    font-size: 20px;
+    color: #928894;
+    width: 550px;
+    margin-bottom: 25px;
+}
+.view {
+    display: flex;
+}
+#view {
+    color: white;
+    font-size: 15px;
+    font-family: 'Nunito Sans';
+    font-weight: bold;
+}
+.icons {
+    margin-top: 15px;
+}
+.categories {
+    display: flex;
+    padding-right: 100px;
+}
+.parent {
+    font-family: 'Nunito Sans';
+    color: #62789c;
+    font-size: 18px;
+}
+.child {
+    font-family: 'Nunito Sans';
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+}
+.parent , .child {
+    margin-right: 80px;
+}
+.options {
+    font-family: 'Nunito Sans';
+    color: white;
+    font-size: 30px;
+}
+.grid_container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 30px;
+    width: 500px;
+    height: 300px;
+}
+.grid_item {
+    border: 1px solid white;
+    border-radius: 10px;
+   box-sizing: border-box;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+img {
+    border-radius: 10px;
+}
+.text {
+    color: white;
+    font-family: 'Nunito Sans';
+    text-align: center;
+    font-size: 18px;
+}
