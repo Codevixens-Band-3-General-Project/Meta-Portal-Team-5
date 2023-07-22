@@ -355,6 +355,7 @@ main{
     width: 100%;
     height: 49vh;
     border-radius: 10px;
+    object-fit: cover;
 }
 
 .meta-text{
@@ -427,7 +428,7 @@ main{
 
 .normal-img{
     width: 28%;
-    height: 50vh;
+    height: 100%;
     border-radius: 20px;
     border: 1px solid #ffffff26;
     padding: 20px;
@@ -440,19 +441,27 @@ main{
     border: 1px solid #ffffff26;
     padding: 20px;
     margin-bottom: 0;
+   
 
 }
 
-.small-img1{
+/* .small-img1{
     width: 100%;
     margin-top: 11rem;
+    object-fit: cover;
+} */
+.small-img1{
+    /* width: 16%; */
+    margin-top: 11rem;
+    object-fit: cover;
 }
 
 .small-img img{
     height: 22vh;
+    object-fit: cover;
 }
 
-.normal-img img, .small-img img{
+.normal-img img, .small-img img, .small-img1{
     width: 100%;
     border-radius: 20px;
 }
@@ -642,7 +651,6 @@ main{
     border-top: 1px solid #ffffff26;
     border-bottom: 1px solid #ffffff26;
     margin-bottom: 10rem;
-    justify-content: space-between;
     padding: 10rem;
     color: #9ba0b8;
     font-size: 1.1rem;
@@ -652,6 +660,21 @@ main{
     justify-content: center;
     align-items: center;
 }
+
+.countdown-sect-container{
+    margin: auto;
+    width: 100%;
+    justify-content: space-between;
+}
+
+
+.small-divider1{
+    width: 4rem;
+    border: 1px solid #ffffff26;
+    margin: 1.5rem 0 1.5rem 0;
+}
+
+
 
 
 
@@ -689,6 +712,10 @@ main{
 .legend-img img{
     width: 100%;
     border-radius: 10px;
+}
+
+.d-none3{
+    display: none;
 }
 
 
@@ -984,27 +1011,7 @@ footer{
 }
 
 
-/* FOOTER FOR SMALLER SCREENS */
-
-@media screen and(max-width: 1204px) {
-
-    .main-footer_container{
-        margin: auto;
-        width: 90%;
-    }
-    .contactus-info{
-        flex-wrap: wrap;
-    }
-
-    .contactus-details{
-        width: 100%;
-    }
-
-    .btn{
-        width: 28%;
-    }
-}
-
+/* RESPONSIVE STYLING */
 
  /* Mobile styles */
 
@@ -1050,21 +1057,329 @@ footer{
   }
 
 
+@media only screen and (min-width: 1201px) and (max-width: 1280px) {
 
-@media screen and(max-width: 912px) {
-    
-    .contactus-details_text{
-        font-size: 2rem;
+    .legend-img{
+        left: 18rem;
+    }
+
+    .normal-img{
+        width: 28%;
+        /* height: 100%; */
+        
     }
     
-    .contactUs-header{
-        margin-top: 3rem;
-        font-size: 2rem
+    .small-img{
+        width: 20%;
+    }
+
+    .small-img1{
+        width: 100%;
+    }
+
+    .m-b{
+        margin-top: 5.5rem;
+    }
+
+    .d-none{
+        display: none;
+    }
+
+    .countdown-container{
+        padding: 10rem 5rem;
+    }
+  }
+
+  @media only screen and (min-width: 1025px) and (max-width: 1200px) {
+    /* Desktop styles */
+  }
+  
+
+  @media only screen and (max-width: 1024px) {
+    .prev-next{
+        width: 25%;
+    }
+
+    .meta-text{
+        width: 98%;
+    }
+
+    .meta-img{
+        width: 32%;
+        height: 50vh;
     }
     
-    .contactUs-header + p{
-        font-size: 3.2rem;
-        transition: color 0.3s ease;
+    .meta-img img{
+        width: 100%;
+        height: 42.5vh;
+    }
+
+    .countdown-sect-container{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .countdown-container{
+        padding: 8rem 2.5rem;
+    }
+
+    .d-none1{
+        display: none;
+    }
+    
+    .countdown-sect{
+        width: 33%;
+        margin-bottom: 4rem;
+    } 
+
+    .legend-container{
+        width: 100%;
+        flex-wrap: wrap;
+        margin-bottom: ;
+    }
+
+    .d-none2{
+        display: none;
+    }
+
+    .legend-text{
+        width: 95%;
+        margin-top: 0rem;
+        margin-left: 1rem;
+        margin-bottom: 8rem;
+    }
+
+    .d-none3{
+        display: block;
+    }
+    
+    .legend-background{
+        width: 100%;
+        height: 134vh;
+    }
+
+    .legend-img{
+        width: 60%;
+        left: 20%;
+        top: 15%;
+    }
+    
+    .legend-img img{
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .mint-container{
+        width: 96%;
+        flex-wrap: wrap;
+    }
+
+    .mint-text{
+        width: 100%;
+        margin-bottom: 5rem;
+    }
+
+    .mint-card-container{
+        width: 100%;
+    }
+
+    .small-img{
+        width: 20%;
+    }
+
+    .small-img1{
+        width: 100%;
+    }
+
+    .m-b{
+        margin-top: 5.5rem;
+    }
+
+    .collection-container, .roadmap-container, .blog-article-container, .contactUs-container{
+        width: 98%;
+    }
+
+    .collection-img_container{
+        margin-top: -10rem;
+        margin-bottom: 12rem;
+    }
+
+    .collection-text{
+        margin: auto;
+        width: 100%;
+        margin-bottom: 3rem;
+    }
+
+    .d-none4{
+        display: none;
+    }
+
+    .roadmap-card{
+        width: 49%;
+    }
+
+    .article-flex{
+        flex-wrap: wrap;
+    }
+
+    .article-flex-content{
+        width: 100%;
+    
+    }
+
+    .article-flex .article-flex-content{
+        width: 100%;
+    }
+
+    .main-footer_container{
+        margin: auto;
+        width: 90%;
+    }
+    .contactus-info{
+        flex-wrap: wrap;
+    }
+
+    .contactus-details{
+        width: 100%;
+    }
+
+    .btn{
+        width: 28%;
+    }
+ 
+} 
+
+
+  @media only screen and (min-width: 820px) and (max-width: 912px) {
+    .contactUs-title{
+        font-size: 3rem;
+    }
+
+
+    .meta-img{
+        height: 20vh;
+    }
+    
+    .meta-img img{
+        height: 100%;
+    }
+
+    .prev-next{
+        width: 35%;
+    }
+
+    .meta-text{
+        width: 100%;
+    }
+
+    .legend-background{
+        width: 100%;
+        height: 50vh;
+    }
+
+    .mint-card{
+        width: 48%;
+        height: 20vh;
+    }
+
+    .mint-card div{
+        height: 100%;
+    }
+
+     .small-img, .normal-img-container{
+        width: 26%;
+    }
+
+    .small-img{
+        height: 18vh;
+    }
+
+    .small-img img{
+        height: 100%;
+    }
+
+    .normal-img{
+        width: 18%;
+    }
+
+    .small-img1{
+        width: 98%;
+    }
+
+    .m-b{
+        margin-top: 17rem;
+    }
+
+    .d-none5{
+        display: none;
+    }
+
+    .footer-container{
+        width: 98%;
+    }
+
+
+  }
+
+  @media only screen and (min-width: 540px) and (max-width: 819px){
+    .contactUs-title{
+        font-size: 3rem;
+    }
+
+    .d-none6{
+        display: none;
+    }
+
+    .meta-img{
+        width: 100%;
+        height: 75vh;
+    }
+
+    .meta-img img{
+        height: 100%;
+    }
+
+    .prev-next{
+        width: 50%;
+    }
+
+    .legend-background{
+        width: 100%;
+        height: 60vh;
+    }
+
+    .collection-img_container{
+        flex-wrap: wrap;
+    }
+
+    .small-img, .normal-img-container, .normal-img{
+        width: 48%;
+        height: 40vh;
+    }
+
+    .small-img img, .normal-img-container img, .normal-img img{
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .small-img1{
+        width: 98%;
+    }
+
+    .m-b{
+        margin-top: 11rem;
+    }
+
+    .mb-9{
+        margin-bottom: -9rem;
+    }
+
+    .mt-1{
+        margin-top: 2rem;
+    }
+
+    .d-none6{
+        display: none;
     }
 
     .personal-info{
@@ -1075,53 +1390,173 @@ footer{
         width: 100%;
     }
 
-    .info input{
-        margin-bottom: 2.2rem;
-        height: 9rem;
-    }
-
-    textarea, input{
-        font-size: 2rem;
-    }
-
-    .check{
-        margin-bottom: 4rem;
-    }
-    
-    .check label{
-        font-size: 1.9rem;
-    }
-
     .btn{
-        width: 60%;
-    }
-
-    .btn button{
-        padding: 50px 70px;
-        font-size: 1.6rem;
+        width: 45%;
     }
 
     .footer-container{
         flex-wrap: wrap;
-        padding-top: 3rem;
-        padding-bottom: 3rem;
-        
     }
 
-    .footer-pages li, .copyright p{
+    .footer-pages, .copyright{
+        width: 100%;
+    }
+
+    .mint-num{
+        font-size: 3rem;
+    }
+    .min + p{
         font-size: 2rem;
-        line-height: 4rem;
     }
 
-    .contactUs-container{
-        margin-bottom: 18rem;
+    .mint-card div{
+        padding-left: 1rem;
     }
 
-    input[type=checkbox]{
-        width: 30px;
-        height: 30px;
-    }
-    
 }
 
-box-shadow: 0 5px 20px;
+
+@media only screen and (min-width: 280px) and (max-width: 539px) {
+    .contactUs-title{
+        font-size: 2rem;
+    }
+
+    .d-none6, .d-none5, .d-none4, .d-none{
+        display: none;
+    }
+
+    .meta-img{
+        width: 100%;
+        height: 40vh;
+    }
+
+    .meta-img img{
+        height: 100%;
+    }
+
+    .d-none1{
+        display: block;
+    }
+
+    .p-l{
+       
+        width: 100%;
+        padding-left: 40%;
+    }
+
+    .small-divider1{
+        margin-bottom: 2rem;
+        margin-top: -1rem;
+    }
+
+    .countdown-sect{
+        width: 100%;
+    } 
+
+    .prev-next{
+        width: 90%;
+    }
+
+    .legend-background{
+        width: 100%;
+        height: 50vh;
+    }
+
+    .legend-img{
+        width: 100%;
+        left: 0rem;
+        top: 2.5rem;
+    }
+
+    .mint-card{
+        width: 100%;
+        height: 25vh;
+        margin-bottom: 1rem;
+    }
+
+    .mint-card div{
+        height: 100%;
+    }
+
+
+    .collection-img_container{
+        flex-wrap: wrap;
+    }
+
+    .small-img, .normal-img-container, .normal-img{
+        width: 100%;
+        height: 40vh;
+    }
+
+    .small-img img, .normal-img-container img, .normal-img img{
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .mb-9{
+        margin-bottom: -10rem;
+    }
+
+    .m-b{
+        margin-top: 22rem;
+    }
+
+    .margin-b{
+        margin-top: -10rem;
+        margin-bottom: 10rem;
+    }
+
+    .mt-1{
+        margin-top: 1rem;
+    }
+    .mb-1{
+        margin-bottom: 1rem;
+    }
+
+    .collect{
+        margin-bottom: 2rem;
+    }
+
+    .d-none7{
+        display: none;
+    }
+
+    .roadmap-card{
+        width: 100%;
+    }
+
+    .personal-info{
+        flex-wrap: wrap;
+    }
+
+    .info{
+        width: 100%;
+    }
+
+    .btn{
+        width: 70%;
+    }
+
+    .footer-container{
+        flex-wrap: wrap;
+    }
+
+    footer a, .copyright p{
+        font-size: 0.8rem;
+    }
+
+    .footer-pages, .copyright{
+        width: 100%;
+    }
+
+    .mint-num{
+        font-size: 2.5rem;
+    }
+    .min + p{
+        font-size: 1.5rem;
+    }
+
+    .mint-card div{
+        padding-left: 1rem;
+    }
+  }
