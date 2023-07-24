@@ -333,7 +333,7 @@ main{
 } */
 
 /* META LEGENDS */
-.meta-container{
+/*.meta-container{
     margin: auto;
     width: 87%;
     margin-bottom: 10rem;
@@ -357,6 +357,47 @@ main{
     border-radius: 10px;
     object-fit: cover;
 }
+*/
+.meta-container{
+    margin: auto;
+    width: 100%;
+    margin-bottom: 10rem;
+    overflow: hidden;
+    position: relative;
+    perspective: 1000px;
+}
+.meta-images{
+    display: flex;
+    justify-content: center;
+    transition: transform 0.3s ease-in-out;
+    transform-style: preserve-3d;
+}
+.meta-img{
+    flex: 0 0 31.6%;
+    height: auto;
+    padding: 1.5rem;
+    margin: 0 10px;
+    border: 1px solid #ffffff26;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.meta-img img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    display: block;
+    transform-style: preserve-3d;
+}
+
+.meta-img.active-slide {
+    transform: scale(1.1);
+}
+
+#prev-btn, #next-btn {
+    cursor: pointer;
+}
+
 
 .meta-text{
     margin: auto;
