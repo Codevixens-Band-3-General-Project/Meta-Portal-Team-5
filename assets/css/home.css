@@ -202,13 +202,13 @@ li a {
   position: relative;
 }
 
-#sidebar .sub-menu ul li {
+/* #sidebar .sub-menu ul li {
   padding-left: 0;
   display: none;
   position: absolute;
   top: 0;
   left: 100%;
-}
+} */
 
 #sidebar nav ul li {
   padding: 15px;
@@ -228,19 +228,19 @@ li a {
   text-underline-offset: 10px;
 }
 .sub-menu {
-  display: none;
+  /* display: none; */
 }
 
 .sub-menu.active {
-  display: block;
+  /* display: block; */
 }
 
 .sub-menu ul {
-  display: none;
+  /* display: none; */
 }
 
 .sub-menu.active ul {
-  display: block;
+  /* display: block; */
 }
 
 .hide-menu {
