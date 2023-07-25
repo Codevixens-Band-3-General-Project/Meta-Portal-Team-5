@@ -94,7 +94,7 @@
             </div>
 
             <div class="connect-button">
-              <button type="">CONNECT TO WALLET</button>
+              <button type="" id="connectBtn">CONNECT TO WALLET</button>
             </div>
           </section>
         </nav>
@@ -122,7 +122,7 @@
         <nav>
           <ul>
             <li>
-              <a href="#" id="homeLink" class="menu-link"
+              <a href="index.html" id="homeLink" class="menu-link"
                 >Home
                 <i class="fas fa-angle-right subPageBtn" id="subPageBtn1"></i
               ></a>
@@ -138,7 +138,7 @@
                   >
                 </li>
                 <li>
-                  <a href="index-1.html"
+                  <a href="index.html"
                     ><span class="sub-menu-pages">#1 3D Carousel</span></a
                   >
                 </li>
@@ -148,7 +148,7 @@
                   >
                 </li>
                 <li>
-                  <a href="#"
+                  <a href="video-background.html"
                     ><span class="sub-menu-pages">#3 Video Background</span></a
                   >
                 </li>
@@ -169,8 +169,8 @@
                 </li>
               </ul>
             </li>
-            <li class="menu-item"><a href="#">Mint Page</a></li>
-            <li><a href="#">Collection</a></li>
+            <li class="menu-item"><a href="mintpage.html">Mint Page</a></li>
+            <li><a href="collection.html">Collection</a></li>
 
             <li>
               <a href="#" id="pagesLink" class="menu-link"
@@ -189,7 +189,7 @@
                   >
                 </li>
                 <li class="menu-item">
-                  <a href="index-1.html"
+                  <a href="coming soon.html"
                     ><span class="sub-menu-home">Comming Soon</span></a
                   >
                 </li>
@@ -197,7 +197,7 @@
                   <a href="#"><span class="sub-menu-home">404</span></a>
                 </li>
                 <li class="menu-item">
-                  <a href="#"
+                  <a href="protected-page.html"
                     ><span class="sub-menu-home">Protected Page</span></a
                   >
                 </li>
@@ -217,8 +217,8 @@
                 </li>
               </ul>
             </li>
-            <li class="menu-item"><a href="#">Blog</a></li>
-            <li class="menu-item"><a href="#">Simple Blog</a></li>
+            <li class="menu-item"><a href="blog.html">Blog</a></li>
+            <li class="menu-item"><a href="blog-single.html">Simple Blog</a></li>
           </ul>
           <!-- sub- menus for more tab -->
           <ul class="sub-menu" id="moreSubMenu">
@@ -230,19 +230,19 @@
             </li>
             <!-- Add unique IDs for each sub-menu item -->
             <li class="menu-item moreSubMenuItem" id="cookiesLink">
-              <a href="index-1.html"
+              <a href="cookies.html"
                 ><span class="sub-menu-home">Cookies</span></a
               >
             </li>
             <li class="menu-item moreSubMenuItem" id="privacyPoliciesLink">
-              <a href="#"
+              <a href="privacy.html"
                 ><span class="sub-menu-home moreSubMenuItem"
                   >Privacy Policies</span
                 ></a
               >
             </li>
             <li class="menu-item moreSubMenuItem" id="termsAndConditionsLink">
-              <a href="#"
+              <a href="T&C.html"
                 ><span class="sub-menu-home">Terms and Conditions</span></a
               >
             </li>
@@ -273,75 +273,65 @@
         </div>
       </div>
     </div>
+    <!--Connect Wallet button-->
+    <div id="connectSidebar" class="text-center">
+        <div class="connectSidebar-menu-inner connectBtn_scrollbar">
+          <div class="sidebar-menu-head">
+            <H2 class="connectTxt pb-4">CONNECT WALLET</H2>
+            <p class="pb-3">Connect with one of our available wallet <br> providers or create a new one.</p>
+            <button id="connect-close-btn">&times;</button>
+  
+            <div class="site-logo d-block">
+              <div class="open-sea platforms">
+                <img src="./Assets/images/opensea.png" alt="" class="mb-4" />
+                <p>METAMASK</p>
+              </div>
+              <div class="discord platforms">
+                <img src="./Assets/images/discord.png" alt="" />
+                <p>COINBASE</p>
+              </div>
+              <div class="discord platforms">
+                <img src="./Assets/images/discord.png" alt="" />
+                <p>WALLETCONNECT</p>
+              </div>
+              <div class="discord platforms">
+                <img src="./Assets/images/discord.png" alt="" />
+                <p>VENLY</p>
+              </div>
+            </div>
+        </div>
+        </div>
+      </div>
 
     <div class="main-footer_container">
 
       <main>
-       <!-- <div class="meta-container" id="meta">
-          <p class="contactUs-title t-center">META LEGENDS</p>
-          <div class="meta-images d-flex">
-            <div class="meta-img">
-              <img src="assets/images/unnamed(4).jpg" alt="" />
-            </div>
-            <div class="meta-img d-none6">
-              <img src="assets/images/17.jpg" alt="" />
-            </div>
-            <div class="meta-img d-none6">
-              <img src="assets/images/unnamed(1).jpg" alt="" />
-            </div>
-       <div class="meta-img">
-
-       -->
-
             <div class="meta-container" id="meta">
                 <p class="contactUs-title t-center">META LEGENDS</p>
                <div class="meta-images d-flex">
-                    <div class="meta-img">
-                        <img src="assets/images/unnamed(4).jpg" alt="">
+                    <div class="meta-img" data-index="1">
+                        <img src="assets/images/unnamed(4).jpg" alt="" class="">
                     </div>
-                    <div class="meta-img">
+                    <div class="meta-img" data-index="2">
                         <img src="assets/images/17.jpg" alt="">
                     </div>
-                    <div class="meta-img">
+                    <div class="meta-img" data-index="3">
                         <img src="assets/images/unnamed1.jpg" alt="">
                     </div>
-                    <div class="meta-img">
+                    <div class="meta-img" data-index="4">
 
                         <img src="assets/images/10.jpg" alt="">
                     </div>
-                    <div class="meta-img">
+                    <div class="meta-img" data-index="5">
                         <img src="assets/images/13.jpg" alt="">
                     </div>
-                    <div class="meta-img">
+                    <div class="meta-img" data-index="6">
                         <img src="assets/images/15.jpg" alt="">
                     </div>
-                    <div class="meta-img">
+                    <div class="meta-img" data-index="7">
                         <img src="assets/images/11.jpg" alt="">
-
-                    </div> -->
-          </div>
-
-          <div class="prev-next d-flex">
-            <div class="d-flex prev">
-              <div class="center-round d-flex">
-                <div class="small-round"></div>
-              </div>
-              <div class="prev-next-btn d-flex">
-                <i class="fa-sharp fa-solid fa-chevron-left"></i>
-              </div>
-              <div class="center-round d-flex">
-                <div class="small-round"></div>
-              </div>
-            </div>
-
-            <div class="line d-flex">
-              <span class="material-symbols-outlined"> minimize </span>
-            </div>
-
                     </div> 
-               </div>
-
-
+          </div>
                 <div class="prev-next d-flex">
                 <div class="d-flex prev">
                         <div class="center-round d-flex">
@@ -373,19 +363,6 @@
                         </div>
                     </div>
                  </div>
-
-
-            <div class="d-flex next">
-              <div class="center-round d-flex">
-                <div class="small-round"></div>
-              </div>
-              <div class="prev-next-btn d-flex">
-                <i class="fa-sharp fa-solid fa-chevron-right"></i>
-              </div>
-              <div class="center-round d-flex">
-                <div class="small-round"></div>
-              </div>
-            </div>
           </div>
 
           <div class="meta-text">
@@ -560,9 +537,13 @@
               </div>
             </div>
 
-            <div class="mint_img-video">
+            <div class="mint_img-video" style="position: relative;">
               <!-- <iframe width="900" height="506" src="https://www.youtube.com/embed/7e90gBu4pas" title="Working at Envato" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
               <img src="assets/images/1 (2).jpg" alt="" />
+            
+              <a class="popup-youtube" href="https://www.youtube.com/watch?v=7e90gBu4pas" target="_self">
+                <i class="bi bi-play-circle video-play fs-6"></i>
+            </a>
             </div>
           </div>
         </div>
@@ -669,111 +650,11 @@
 
           <div class="roadmap-slider"></div>
 
-          <div class="roadmap-card-container d-flex">
-            <div class="roadmap-card">
-              <div class="roadmap-phase">
-                <p>PHASE 01</p>
-              </div>
-              <div class="card-details">
-                <p class="roadmap-date">October 09, 2022</p>
-                <p class="roadmap-title">Mini Game Lounch For Community</p>
-                <p class="roadmap-text">
-                  Morbi non dignissim erat, a blandit felis. Suspendisse nec
-                  lorem vel orci varius congue ut vitae est. Nam quis tempus
-                  nisl. Fusce posuere nibh a mi molestie, sit amet ornare lectus
-                  interdum.
-                </p>
-              </div>
-            </div>
+          <div class="roadmap-card-container d-flex"  id="roadMapContainer">
+           
 
-            <div class="roadmap-card d-none7">
-              <div class="roadmap-phase">
-                <p>PHASE 02</p>
-              </div>
-              <div class="card-details">
-                <p class="roadmap-date">October 17, 2022</p>
-                <p class="roadmap-title">New Set #12 is Coming Up</p>
-                <p class="roadmap-text">
-                  Morbi non dignissim erat, a blandit felis. Suspendisse nec
-                  lorem vel orci varius congue ut vitae est. Nam quis tempus
-                  nisl. Fusce posuere nibh a mi molestie, sit amet ornare lectus
-                  interdum.
-                </p>
-              </div>
-            </div>
-
-            <div class="roadmap-card d-none4">
-              <div class="roadmap-phase">
-                <p>PHASE 03</p>
-              </div>
-              <div class="card-details">
-                <p class="roadmap-date">October 28, 2022</p>
-                <p class="roadmap-title">Metaverse 3.0 Launch</p>
-                <p class="roadmap-text">
-                  Morbi non dignissim erat, a blandit felis. Suspendisse nec
-                  lorem vel orci varius congue ut vitae est. Nam quis tempus
-                  nisl. Fusce posuere nibh a mi molestie, sit amet ornare lectus
-                  interdum.
-                </p>
-              </div>
-            </div>
-
-            <div class="roadmap-card d-none4">
-              <div class="roadmap-phase">
-                <p>PHASE 04</p>
-              </div>
-              <div class="card-details">
-                <p class="roadmap-date">November 11, 2022</p>
-                <p class="roadmap-title">Female Set #20 is Coming Up</p>
-                <p class="roadmap-text">
-                  Morbi non dignissim erat, a blandit felis. Suspendisse nec
-                  lorem vel orci varius congue ut vitae est. Nam quis tempus
-                  nisl. Fusce posuere nibh a mi molestie, sit amet ornare lectus
-                  interdum.
-                </p>
-              </div>
-            </div>
-            <!-- <div class="roadmap-card">
-                        <div class="roadmap-phase"><p>PHASE 05</p></div>
-                        <div class="card-details">
-                            <p class="roadmap-date">November 23, 2022</p>
-                            <p class="roadmap-title">Mini Game Lounch For Community</p>
-                            <p class="roadmap-text">Morbi non dignissim erat, a blandit felis. Suspendisse nec lorem vel orci varius congue ut vitae est. Nam quis tempus nisl. Fusce posuere nibh a mi molestie, sit amet ornare lectus interdum.</p>
-                        </div>
-                    </div>
-                    <div class="roadmap-card">
-                        <div class="roadmap-phase"><p>PHASE 06</p></div>
-                        <div class="card-details">
-                            <p class="roadmap-date">December 02, 2022</p>
-                            <p class="roadmap-title">Mini Game Lounch For Community</p>
-                            <p class="roadmap-text">Morbi non dignissim erat, a blandit felis. Suspendisse nec lorem vel orci varius congue ut vitae est. Nam quis tempus nisl. Fusce posuere nibh a mi molestie, sit amet ornare lectus interdum.</p>
-                        </div>
-                    </div>
-                    <div class="roadmap-card">
-                        <div class="roadmap-phase"><p>PHASE 07</p></div>
-                        <div class="card-details">
-                            <p class="roadmap-date">January 14, 2023</p>
-                            <p class="roadmap-title">Mini Game Lounch For Community</p>
-                            <p class="roadmap-text">Morbi non dignissim erat, a blandit felis. Suspendisse nec lorem vel orci varius congue ut vitae est. Nam quis tempus nisl. Fusce posuere nibh a mi molestie, sit amet ornare lectus interdum.</p>
-                        </div>
-                    </div>
-                    <div class="roadmap-card">
-                        <div class="roadmap-phase"><p>PHASE 08</p></div>
-                        <div class="card-details">
-                            <p class="roadmap-date">January 28, 2023</p>
-                            <p class="roadmap-title">Mini Game Lounch For Community</p>
-                            <p class="roadmap-text">Morbi non dignissim erat, a blandit felis. Suspendisse nec lorem vel orci varius congue ut vitae est. Nam quis tempus nisl. Fusce posuere nibh a mi molestie, sit amet ornare lectus interdum.</p>
-                        </div>
-                    </div>
-                    <div class="roadmap-card">
-                        <div class="roadmap-phase"><p>PHASE 09</p></div>
-                        <div class="card-details">
-                            <p class="roadmap-date">February 12, 2023</p>
-                            <p class="roadmap-title">Mini Game Lounch For Community</p>
-                            <p class="roadmap-text">Morbi non dignissim erat, a blandit felis. Suspendisse nec lorem vel orci varius congue ut vitae est. Nam quis tempus nisl. Fusce posuere nibh a mi molestie, sit amet ornare lectus interdum.</p>
-                        </div>
-                    </div> -->
           </div>
+          
         </div>
 
         <!-- DIVIDER -->
@@ -1110,7 +991,7 @@
       });
     </script>
     <!--Blog JS-->
-    <!--Sidebar and Overlay-->
+    <!--Sidebar, connectBtn and Overlay-->
     <script>
       var toggleIcon = document.getElementById("toggleIcon");
       var overlay = document.getElementById("overlay");
@@ -1196,6 +1077,8 @@
   
 <script src="script/script.js"></script>
 <script src="script/carousel.js"></script>
+<script src="script/roadMapData.js"></script>
+<script src="script/connectSidebar.js"></script>
    
 </body>
 
