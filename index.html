@@ -1,156 +1,297 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MetaPortal - NFT Portfolio and Landing Page Preview - ThemeForest</title>
-    <link rel="stylesheet" href="assets/css/home.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/ea26a1f5e9.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;700&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500&display=swap" rel="stylesheet">
-    <link rel="icon" href="assets/images/apple-touch-icon.png">
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      MetaPortal - NFT Portfolio and Landing Page Preview - ThemeForest
+    </title>
+    <link rel="stylesheet" href="assets/css/home.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/ea26a1f5e9.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="assets/images/apple-touch-icon.png" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
     <!--Boostrap Icons for bars-->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <style>
+      /* Hide all sub-menus by default */
+      .sub-menu {
+        display: none;
+      }
+    </style>
+  </head>
 
-</head>
-
-<body>
+  <body>
     <header>
-        <div class="nav-container">
-            <nav>
-                <section class="logo-container d-flex">
-                    <div class="logo d-flex">
-                        <img src="assets/images/envato_market-img.svg" alt="The envato_market logo">
-                    </div>
+      <div class="nav-container">
+        <nav>
+          <section class="logo-container d-flex">
+            <div class="logo d-flex">
+              <img
+                src="assets/images/envato_market-img.svg"
+                alt="The envato_market logo"
+              />
+            </div>
 
-                    <div class="buy-now">
-                        <a href="#">Buy now</a>
-                    </div>
-                </section>
+            <div class="buy-now">
+              <a href="#">Buy now</a>
+            </div>
+          </section>
 
-                <section class="nav-bar d-flex">
-                    <div class="menu-meta_logo d-flex">
-                        <div class="menu-icon d-flex">
-                            <span class="material-symbols-outlined" id="toggleIcon">
-                                <i class="bi bi-list"></i></span>
-                        </div>
+          <section class="nav-bar d-flex">
+            <div class="menu-meta_logo d-flex">
+              <div class="menu-icon d-flex">
+                <span class="material-symbols-outlined" id="toggleIcon">
+                  <i class="bi bi-list"></i
+                ></span>
+              </div>
 
-                        <div class="meta-logo">
-                            <img src="assets/images/meta-logo.png" alt="">
-                        </div>
-                    </div>
+              <div class="meta-logo">
+                <img src="assets/images/meta-logo.png" alt="" />
+              </div>
+            </div>
 
-                    <div class="nav-pages d-flex">
-                        <ul class="d-flex">
-                            <li><a href="#meta">Home</a></li>
-                            <li><a href="#legend">About</a></li>
-                            <li><a href="#collect">Collect</a></li>
-                            <li><a href="#blog">Blog</a></li>
-                            <li><a href="#contact">Contact</a></li>
-                        </ul>
-                    </div>
+            <div class="nav-pages d-flex">
+              <ul class="d-flex">
+                <li><a href="#meta">Home</a></li>
+                <li><a href="#legend">About</a></li>
+                <li><a href="#collect">Collect</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+              </ul>
+            </div>
 
-                    <div class="connect-button">
-                        <button type="">CONNECT TO WALLET</button>
-                    </div>
-                </section>
-            </nav>
-        </div>
+            <div class="connect-button">
+              <button type="">CONNECT TO WALLET</button>
+            </div>
+          </section>
+        </nav>
+      </div>
     </header>
     <!--Sidebar Overlay-->
     <div id="overlay"></div>
     <div id="sidebar" class="text-center">
-        <div class="sidebar-menu-inner sidebar_scrollbar">
-            <div class="sidebar-menu-head">
-                <button id="close-btn">&times;</button>
+      <div class="sidebar-menu-inner sidebar_scrollbar">
+        <div class="sidebar-menu-head">
+          <button id="close-btn">&times;</button>
 
-                <div class="site-logo d-block">
-                    <div class="open-sea platforms">
-                        <img src="./Assets/images/opensea.png" alt="" class="mb-4">
-                        <p>Openseaa</p>
-                    </div>
-                    <div class="discord platforms">
-                        <img src="./Assets/images/discord.png" alt="">
-                        <p>Discord</p>
-                    </div>
-                </div>
+          <div class="site-logo d-block">
+            <div class="open-sea platforms">
+              <img src="./Assets/images/opensea.png" alt="" class="mb-4" />
+              <p>Openseaa</p>
             </div>
-            <nav>
-                <ul class="main-menu">
-                    <li class="menu-item">
-
-
-                        <a href="#">Home </a>
-                        <i class="fas fa-angle-right subPageBtn" id="subPageBtn1"></i>
-                        <ul class="sub-menu">
-                            <li><a href="index-1.html"><span class="sub-menu-pages">#1 3D Carousel</span></a></li>
-                            <li><a href="#"><span class="sub-menu-pages">#2 Bended Carousel</span></a></li>
-                            <li><a href="#"><span class="sub-menu-pages">#3 Video Background</span></a></li>
-                            <li><a href="#"><span class="sub-menu-pages">#4 Water Effect</span></a></li>
-                            <li><a href="#"><span class="sub-menu-pages">#5 Simple Carousel</span></a></li>
-                            <li><a href="#"><span class="sub-menu-pages">#6 Fullscreen Slider</span></a></li>
-                        </ul>
-                    </li>
-                    <li class="menu-item"><a href="#">Mint Page</a></li>
-                    <li><a href="#">Collection</a></li>
-                    <li class="menu-item">
-                        <a href="#">Pages </a>
-                        <i class="fas fa-angle-right subPageBtn" id="subPageBtn2"></i>
-                        <ul class="sub-menu">
-                            <li class="menu-item"><a href="index-1.html"><span class="sub-menu-home">Comming
-                                        Soon</span></a></li>
-                            <li class="menu-item"><a href="#"><span class="sub-menu-home">404</span></a></li>
-                            <li class="menu-item"><a href="#"><span class="sub-menu-home">Protected Page</span></a></li>
-                            <li class="menu-item"><a href="#"><span class="sub-menu-home">Search No Result</span></a>
-                            </li>
-                            <li class="menu-item">
-                                <a href="#"><span class="sub-menu-home">More</span></a>
-                                <i class="fas fa-angle-right subPageBtn" id="subPageBtn3"></i>
-                                <ul class="sub-menu">
-                                    <li class="menu-item"><a href="index-1.html"><span
-                                                class="sub-menu-home">Cookies</span></a></li>
-                                    <li class="menu-item"><a href="#"><span class="sub-menu-home">Privacy
-                                                Policies</span></a></li>
-                                    <li class="menu-item"><a href="#"><span class="sub-menu-home">Terms and
-                                                Conditions</span></a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="menu-item"><a href="#">Blog</a></li>
-                    <li class="menu-item"><a href="#">Simple Blog</a></li>
-                </ul>
-            </nav>
-            <div class="sidebar-info">
-                <p>Copyright 2023 - Designed &amp; <br>Developed by CodeVixens Team-5</p>
+            <div class="discord platforms">
+              <img src="./Assets/images/discord.png" alt="" />
+              <p>Discord</p>
             </div>
-            <div class="social-media">
-                <ul class="navbar-nav d-flex flex-row social">
-                    <li><a href=""><i class="fa-brands fa-facebook-f icon p-2"></i></a></li>
-                    <li><a href="#"><i class="fa-brands fa-instagram icon p-2"></i></a></li>
-                    <li><a href="#"><i class="fa-brands fa-twitter icon p-2"></i></a></li>
-                    <li><a href="#"><i class="fa-brands fa-whatsapp icon p-2"></i></a></li>
-                </ul>
-            </div>
+          </div>
         </div>
+
+        <nav>
+          <ul>
+            <li>
+              <a href="#" id="homeLink" class="menu-link"
+                >Home
+                <i class="fas fa-angle-right subPageBtn" id="subPageBtn1"></i
+              ></a>
+
+              <ul class="sub-menu" id="homeSubMenu">
+                <li>
+                  <a href="#" class="back-link">
+                    <i
+                      class="fas fa-angle-left subPageBtn"
+                      id="subPageBtn1"
+                    ></i>
+                    Home</a
+                  >
+                </li>
+                <li>
+                  <a href="index-1.html"
+                    ><span class="sub-menu-pages">#1 3D Carousel</span></a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    ><span class="sub-menu-pages">#2 Bended Carousel</span></a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    ><span class="sub-menu-pages">#3 Video Background</span></a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    ><span class="sub-menu-pages">#4 Water Effect</span></a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    ><span class="sub-menu-pages">#5 Simple Carousel</span></a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    ><span class="sub-menu-pages">#6 Fullscreen Slider</span></a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="menu-item"><a href="#">Mint Page</a></li>
+            <li><a href="#">Collection</a></li>
+
+            <li>
+              <a href="#" id="pagesLink" class="menu-link"
+                >Pages
+                <i class="fas fa-angle-right subPageBtn" id="subPageBtn2"></i
+              ></a>
+
+              <ul class="sub-menu" id="pagesSubMenu">
+                <li>
+                  <a href="#" class="back-link">
+                    <i
+                      class="fas fa-angle-left subPageBtn"
+                      id="subPageBtn1"
+                    ></i>
+                    Pages</a
+                  >
+                </li>
+                <li class="menu-item">
+                  <a href="index-1.html"
+                    ><span class="sub-menu-home">Comming Soon</span></a
+                  >
+                </li>
+                <li class="menu-item">
+                  <a href="#"><span class="sub-menu-home">404</span></a>
+                </li>
+                <li class="menu-item">
+                  <a href="#"
+                    ><span class="sub-menu-home">Protected Page</span></a
+                  >
+                </li>
+                <li class="menu-item">
+                  <a href="#"
+                    ><span class="sub-menu-home">Search No Result</span></a
+                  >
+                </li>
+                <li>
+                  <a href="#" id="moreLink" class="menu-link"
+                    >More
+                    <i
+                      class="fas fa-angle-right subPageBtn"
+                      id="subPageBtn3"
+                    ></i
+                  ></a>
+                </li>
+              </ul>
+            </li>
+            <li class="menu-item"><a href="#">Blog</a></li>
+            <li class="menu-item"><a href="#">Simple Blog</a></li>
+          </ul>
+          <!-- sub- menus for more tab -->
+          <ul class="sub-menu" id="moreSubMenu">
+            <li class="moreSubMenuItem">
+              <a href="#" class="back-link">
+                <i class="fas fa-angle-left subPageBtn" id="subPageBtn1"></i>
+                More</a
+              >
+            </li>
+            <!-- Add unique IDs for each sub-menu item -->
+            <li class="menu-item moreSubMenuItem" id="cookiesLink">
+              <a href="index-1.html"
+                ><span class="sub-menu-home">Cookies</span></a
+              >
+            </li>
+            <li class="menu-item moreSubMenuItem" id="privacyPoliciesLink">
+              <a href="#"
+                ><span class="sub-menu-home moreSubMenuItem"
+                  >Privacy Policies</span
+                ></a
+              >
+            </li>
+            <li class="menu-item moreSubMenuItem" id="termsAndConditionsLink">
+              <a href="#"
+                ><span class="sub-menu-home">Terms and Conditions</span></a
+              >
+            </li>
+          </ul>
+        </nav>
+
+        <div class="sidebar-info">
+          <p>
+            Copyright 2023 - Designed &amp; <br />Developed by CodeVixens Team-5
+          </p>
+        </div>
+
+        <div class="social-media">
+          <ul class="navbar-nav d-flex flex-row social">
+            <li>
+              <a href=""><i class="fa-brands fa-facebook-f icon p-2"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-instagram icon p-2"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-twitter icon p-2"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-whatsapp icon p-2"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
 
     <div class="main-footer_container">
-        <main>
+
+      <main>
+       <!-- <div class="meta-container" id="meta">
+          <p class="contactUs-title t-center">META LEGENDS</p>
+          <div class="meta-images d-flex">
+            <div class="meta-img">
+              <img src="assets/images/unnamed(4).jpg" alt="" />
+            </div>
+            <div class="meta-img d-none6">
+              <img src="assets/images/17.jpg" alt="" />
+            </div>
+            <div class="meta-img d-none6">
+              <img src="assets/images/unnamed(1).jpg" alt="" />
+            </div>
+       <div class="meta-img">
+
+       -->
 
             <div class="meta-container" id="meta">
                 <p class="contactUs-title t-center">META LEGENDS</p>
@@ -180,7 +321,12 @@
                     <div class="meta-img" data-index="3">
                         <img src="assets/images/unnamed1.jpg" alt="">
                     </div>
+<<<<<<< HEAD
                     <div class="meta-img" data-index="4">
+=======
+                    <div class="meta-img">
+
+>>>>>>> b3dbdc6b7edcb2505ac3664874adc0c315ae5c17
                         <img src="assets/images/10.jpg" alt="">
                     </div>
                     <div class="meta-img" data-index="5">
@@ -191,6 +337,27 @@
                     </div>
                     <div class="meta-img" data-index="7">
                         <img src="assets/images/11.jpg" alt="">
+
+                    </div> -->
+          </div>
+
+          <div class="prev-next d-flex">
+            <div class="d-flex prev">
+              <div class="center-round d-flex">
+                <div class="small-round"></div>
+              </div>
+              <div class="prev-next-btn d-flex">
+                <i class="fa-sharp fa-solid fa-chevron-left"></i>
+              </div>
+              <div class="center-round d-flex">
+                <div class="small-round"></div>
+              </div>
+            </div>
+
+            <div class="line d-flex">
+              <span class="material-symbols-outlined"> minimize </span>
+            </div>
+
                     </div> 
                </div> 
 
@@ -228,308 +395,366 @@
                     </div>
                  </div>
 
-                <div class="meta-text">
-                    <p class="t-center">Meta Legends represent a collection of 17,000 legends categorized by level of
-                        rarity and generated with hundreds of elements. The Legends are stored as ERC-721 tokens on the
-                        Ethereum blockchain and hosted on IPFS.</p>
-                </div>
 
-                <div class="connect-button t-center">
-                    <button type="">BUY ON OPENSEA</button>
-                </div>
+            <div class="d-flex next">
+              <div class="center-round d-flex">
+                <div class="small-round"></div>
+              </div>
+              <div class="prev-next-btn d-flex">
+                <i class="fa-sharp fa-solid fa-chevron-right"></i>
+              </div>
+              <div class="center-round d-flex">
+                <div class="small-round"></div>
+              </div>
+            </div>
+          </div>
 
+          <div class="meta-text">
+            <p class="t-center">
+              Meta Legends represent a collection of 17,000 legends categorized
+              by level of rarity and generated with hundreds of elements. The
+              Legends are stored as ERC-721 tokens on the Ethereum blockchain
+              and hosted on IPFS.
+            </p>
+          </div>
+
+          <div class="connect-button t-center">
+            <button type="">BUY ON OPENSEA</button>
+          </div>
+        </div>
+
+        <div class="countdown-container">
+          <div class="countdown-sect-container d-flex">
+            <div class="countdown-num countdown-sect">
+              <div class="span-center d-flex">
+                <span id="totalItems" class="num" data-value="9999"></span>
+              </div>
+              <p class="t-center">Total Items</p>
             </div>
 
-            <div class="countdown-container">
-                <div class="countdown-sect-container  d-flex">
-                
-                    <div class="countdown-num countdown-sect">
-                        <div class="span-center d-flex"><span id="totalItems" class="num" data-value="9999"></span></div>
-                        <p  class="t-center">Total Items</p>
-                    </div>
-                    
-                    <div class="p-l">
-                        <p class="small-divider1"></p>
-                    </div>
-
-                    <div class="countdown-num countdown-sect">
-                        <div class="span-center d-flex"><span id="totalOwners" class="num" data-value="3.9"></span>K+</div>
-                        <p  class="t-center">Total Owners</p>
-                    </div>
-                
-
-                    <div class="d-none1 p-l">
-                        <p class="small-divider1"></p>
-                    </div>
-
-            
-                    <div class="countdown-num countdown-sect">
-                        <div class="span-center d-flex"><span id="price" class="num"  data-value="2.4"></span></div>
-                        <p class="t-center">Floor Price (ETH)</p>
-                    </div>
-
-                    <div class="p-l">
-                        <p class="small-divider1"></p>
-                    </div>
-
-                    <div class="countdown-num countdown-sect">
-                        <div class="span-center d-flex"><span id="vTraded" class="num" data-value="144"></span>K+</div>
-                        <p class="t-center">Volume Traded(ETH)</p>
-                    </div>
-              
-                </div>
-
+            <div class="p-l">
+              <p class="small-divider1"></p>
             </div>
 
-            <div class="legend-container d-flex" id="legend">
-                <div class="legend-background d-none2 d-flex">
-                    <div class="legend-img">
-                        <img src="assets/images/unnamed.jpg" alt="">
-                    </div>
-                </div>
-                <div class="legend-text">
-                    <p class="mint-text-title">The Rise of Legends</p>
-                    <p class="small-divider"></p>
-                    <p class="mint-text-main">As the first hero of the Meta Legends, collection has over 9,999 unique
-                        skins drawn from the different missions and challenges he faced throughout his life.</p>
-                    <p class="mint-text-main">The artwork has been hand-drawned by Robert Green in the traditional anime
-                        style and composited by Layla Efiyo.</p>
-                    <p class="mint-text-main">Curabitur pharetra velit eget dignissim varius. In vulputate elit at
-                        tortor pellentesque, non pulvinar neque consequat. Aenean tristique odio in libero tincidunt
-                        maximus. Nulla pharetra viverra dolor ut blandit. Cras finibus vel tortor eget lacinia.
-                        Pellentesque interdum elit non lacinia faucibus. Morbi nec felis auctor, tincidunt lacus sit
-                        amet, iaculis ipsum. Phasellus tempus sit amet justo et feugiat. Duis blandit semper lorem,
-                        egestas euismod ligula pharetra ac. Sed porta lorem eget neque bibendum, eget euismod justo
-                        mollis.</p>
-                    <p class="mint-text-main">Donec tristique porttitor sem, eget fermentum elit varius nec. Donec ut
-                        orci ipsum. Morbi efficitur felis eget dapibus fermentum. Phasellus sed tellus volutpat,
-                        hendrerit leo non, sollicitudin neque. Etiam ac lacus quam. Vivamus suscipit nisl tellus, at
-                        congue odio commodo at. Cras ante enim, sodales at pretium et, tempus at libero.</p>
-                    <div class="connect-button">
-                        <button type="">FIND US ON DISCORD</button>
-                    </div>
-                </div>
-
-                <div class="legend-background d-flex d-none3">
-                    <div class="legend-img">
-                        <img src="assets/images/unnamed.jpg" alt="">
-                    </div>
-                </div>
-
+            <div class="countdown-num countdown-sect">
+              <div class="span-center d-flex">
+                <span id="totalOwners" class="num" data-value="3.9"></span>K+
+              </div>
+              <p class="t-center">Total Owners</p>
             </div>
 
-            <div class="mint-container d-flex">
-                <div class="mint-text">
-                    <p class="mint-text-title">How to Mint</p>
-                    <p class="small-divider"></p>
-                    <p class="mint-text-main">As the first hero of the Meta Legends, collection has over 9,999 unique
-                        skins drawn from the different missions and challenges he faced throughout his life.</p>
-                    <p class="mint-text-main">The artwork has been hand-drawned by Robert Green in the traditional anime
-                        style and composited by Layla Efiyo.</p>
-                    <p class="mint-text-main">Curabitur pharetra velit eget dignissim varius. In vulputate elit at
-                        tortor pellentesque, non pulvinar neque consequat. Aenean tristique odio in libero tincidunt
-                        maximus. Nulla pharetra viverra dolor ut blandit. Cras finibus vel tortor eget lacinia.
-                        Pellentesque interdum elit non lacinia faucibus. Morbi nec felis auctor, tincidunt lacus sit
-                        amet, iaculis ipsum. Phasellus tempus sit amet justo et feugiat. Duis blandit semper lorem,
-                        egestas euismod ligula pharetra ac. Sed porta lorem eget neque bibendum, eget euismod justo
-                        mollis.</p>
-                    <p class="mint-text-main">Donec tristique porttitor sem, eget fermentum elit varius nec. Donec ut
-                        orci ipsum. Morbi efficitur felis eget dapibus fermentum. Phasellus sed tellus volutpat,
-                        hendrerit leo non, sollicitudin neque. Etiam ac lacus quam. Vivamus suscipit nisl tellus, at
-                        congue odio commodo at. Cras ante enim, sodales at pretium et, tempus at libero.</p>
-                    <div class="connect-button">
-                        <button type="">HOW TO MINT</button>
-                    </div>
-                </div>
-
-                <div class="mint-card-container">
-                    <div class="mint-numbers d-flex">
-                        <div class="mint-card">
-                            <div>
-                                <p class="mint-num">01</p>
-                                <p class="mint-connect">CONNECT YOUR WALLET</p>
-                            </div>
-                        </div>
-                        <div class="mint-card">
-                            <div>
-                                <p class="mint-num">02</p>
-                                <p>SELECT YOUR QUANTITY</p>
-                            </div>
-                        </div>
-                        <div class="mint-card">
-                            <div>
-                                <p class="mint-num">03</p>
-                                <p>CONFIRM THE TRANSACTION</p>
-                            </div>
-                        </div>
-                        <div class="mint-card">
-                            <div>
-                                <p class="mint-num">04</p>
-                                <p>RECEIVE YOUR NFT’S</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="mint_img-video">
-                        <!-- <iframe width="900" height="506" src="https://www.youtube.com/embed/7e90gBu4pas" title="Working at Envato" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
-                        <img src="assets/images/1 (2).jpg" alt="">
-                    </div>
-                </div>
+            <div class="d-none1 p-l">
+              <p class="small-divider1"></p>
             </div>
 
-            <!-- DIVIDER -->
-            <div class="divider"></div>
-
-            <div class="collection-container" id="collect">
-                <p class="contactUs-title t-center collect">OUR COLLECTION</p>
-
-                <div class="collection-img_container d-flex">
-                    <div class="normal-img m-b mb-9">
-                        <img src="assets/images/14.jpg" alt="">
-                    </div>
-                    <div class="normal-img-container mb-9">
-                        <div class="small-img small-img1">
-                            <img src="assets/images/blog-single-img-2.jpg" alt="">
-                        </div>
-                    </div>
-                    <div class="normal-img m-b">
-                        <img src="assets/images/5.jpg" alt="">
-                    </div>
-                    <div class="normal-img-container margin-b">
-                        <div class="small-img small-img1">
-                            <img src="assets/images/13.jpg" alt="">
-                        </div>
-                    </div>
-                </div>
-
-                <div class="collection-img_container d-flex">
-                    <div class="small-img mb-1">
-                        <img src="assets/images/15.jpg" alt="">
-                    </div>
-                    <div class="normal-img">
-                        <img src="assets/images/10.jpg" alt="">
-                    </div>
-                    <div class="small-img mt-1">
-                        <img src="assets/images/12.jpg" alt="">
-                    </div>
-                    <div class="normal-img mt-1">
-                        <img src="assets/images/11.jpg" alt="">
-                    </div>
-                </div>
-
-                <p class="t-center collection-text">Meta Legends represent a collection of 17,000 legends categorized by
-                    level of rarity and generated with hundreds of elements. The Legends are stored as ERC-721 tokens on
-                    the Ethereum blockchain and hosted on IPFS.</p>
-
-                <div class="connect-button">
-                    <button type="">SEE ALL COLLECTIONS</button>
-                </div>
+            <div class="countdown-num countdown-sect">
+              <div class="span-center d-flex">
+                <span id="price" class="num" data-value="2.4"></span>
+              </div>
+              <p class="t-center">Floor Price (ETH)</p>
             </div>
 
-            <!-- DIVIDER -->
-            <div class="divider"></div>
+            <div class="p-l">
+              <p class="small-divider1"></p>
+            </div>
 
-            <div class="roadmap-container">
-                <p class="contactUs-title t-center">ROADMAP</p>
+            <div class="countdown-num countdown-sect">
+              <div class="span-center d-flex">
+                <span id="vTraded" class="num" data-value="144"></span>K+
+              </div>
+              <p class="t-center">Volume Traded(ETH)</p>
+            </div>
+          </div>
+        </div>
 
-                <div class="dashed-border d-flex">
-                    <div class="">
-                        <img src="assets/images/roadmap.png" alt="">
-                    </div>
-                    <div class="d-none6">
-                        <img src="assets/images/roadmap.png" alt="">
-                    </div>
-                    <div class="d-none6">
-                        <img src="assets/images/roadmap.png" alt="">
-                    </div>
-                    <div class="d-none6">
-                        <img src="assets/images/roadmap.png" alt="">
-                    </div>
-                    <div class="d-none5">
-                        <img src="assets/images/roadmap.png" alt="">
-                    </div>
-                    <div class="d-none4">
-                        <img src="assets/images/roadmap.png" alt="">
-                    </div>
-                    <div class="d-none4">
-                        <img src="assets/images/roadmap.png" alt="">
-                    </div>
-                    <div class="d-none4">
-                        <img src="assets/images/roadmap.png" alt="">
-                    </div>
-                    <div class="d-none4">
-                        <img src="assets/images/roadmap.png" alt="">
-                    </div>
-                    <div class="d-none4">
-                        <img src="assets/images/roadmap.png" alt="">
-                    </div>
-                    <div class="d-none">
-                        <img src="assets/images/roadmap.png" alt="">
-                    </div>
-                    <div class="d-none">
-                        <img src="assets/images/roadmap.png" alt="">
-                    </div>
-                    <div class="d-none">
-                        <img src="assets/images/roadmap.png" alt="">
-                    </div>
+        <div class="legend-container d-flex" id="legend">
+          <div class="legend-background d-none2 d-flex">
+            <div class="legend-img">
+              <img src="assets/images/unnamed.jpg" alt="" />
+            </div>
+          </div>
+          <div class="legend-text">
+            <p class="mint-text-title">The Rise of Legends</p>
+            <p class="small-divider"></p>
+            <p class="mint-text-main">
+              As the first hero of the Meta Legends, collection has over 9,999
+              unique skins drawn from the different missions and challenges he
+              faced throughout his life.
+            </p>
+            <p class="mint-text-main">
+              The artwork has been hand-drawned by Robert Green in the
+              traditional anime style and composited by Layla Efiyo.
+            </p>
+            <p class="mint-text-main">
+              Curabitur pharetra velit eget dignissim varius. In vulputate elit
+              at tortor pellentesque, non pulvinar neque consequat. Aenean
+              tristique odio in libero tincidunt maximus. Nulla pharetra viverra
+              dolor ut blandit. Cras finibus vel tortor eget lacinia.
+              Pellentesque interdum elit non lacinia faucibus. Morbi nec felis
+              auctor, tincidunt lacus sit amet, iaculis ipsum. Phasellus tempus
+              sit amet justo et feugiat. Duis blandit semper lorem, egestas
+              euismod ligula pharetra ac. Sed porta lorem eget neque bibendum,
+              eget euismod justo mollis.
+            </p>
+            <p class="mint-text-main">
+              Donec tristique porttitor sem, eget fermentum elit varius nec.
+              Donec ut orci ipsum. Morbi efficitur felis eget dapibus fermentum.
+              Phasellus sed tellus volutpat, hendrerit leo non, sollicitudin
+              neque. Etiam ac lacus quam. Vivamus suscipit nisl tellus, at
+              congue odio commodo at. Cras ante enim, sodales at pretium et,
+              tempus at libero.
+            </p>
+            <div class="connect-button">
+              <button type="">FIND US ON DISCORD</button>
+            </div>
+          </div>
 
+          <div class="legend-background d-flex d-none3">
+            <div class="legend-img">
+              <img src="assets/images/unnamed.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+
+        <div class="mint-container d-flex">
+          <div class="mint-text">
+            <p class="mint-text-title">How to Mint</p>
+            <p class="small-divider"></p>
+            <p class="mint-text-main">
+              As the first hero of the Meta Legends, collection has over 9,999
+              unique skins drawn from the different missions and challenges he
+              faced throughout his life.
+            </p>
+            <p class="mint-text-main">
+              The artwork has been hand-drawned by Robert Green in the
+              traditional anime style and composited by Layla Efiyo.
+            </p>
+            <p class="mint-text-main">
+              Curabitur pharetra velit eget dignissim varius. In vulputate elit
+              at tortor pellentesque, non pulvinar neque consequat. Aenean
+              tristique odio in libero tincidunt maximus. Nulla pharetra viverra
+              dolor ut blandit. Cras finibus vel tortor eget lacinia.
+              Pellentesque interdum elit non lacinia faucibus. Morbi nec felis
+              auctor, tincidunt lacus sit amet, iaculis ipsum. Phasellus tempus
+              sit amet justo et feugiat. Duis blandit semper lorem, egestas
+              euismod ligula pharetra ac. Sed porta lorem eget neque bibendum,
+              eget euismod justo mollis.
+            </p>
+            <p class="mint-text-main">
+              Donec tristique porttitor sem, eget fermentum elit varius nec.
+              Donec ut orci ipsum. Morbi efficitur felis eget dapibus fermentum.
+              Phasellus sed tellus volutpat, hendrerit leo non, sollicitudin
+              neque. Etiam ac lacus quam. Vivamus suscipit nisl tellus, at
+              congue odio commodo at. Cras ante enim, sodales at pretium et,
+              tempus at libero.
+            </p>
+            <div class="connect-button">
+              <button type="">HOW TO MINT</button>
+            </div>
+          </div>
+
+          <div class="mint-card-container">
+            <div class="mint-numbers d-flex">
+              <div class="mint-card">
+                <div>
+                  <p class="mint-num">01</p>
+                  <p class="mint-connect">CONNECT YOUR WALLET</p>
                 </div>
+              </div>
+              <div class="mint-card">
+                <div>
+                  <p class="mint-num">02</p>
+                  <p>SELECT YOUR QUANTITY</p>
+                </div>
+              </div>
+              <div class="mint-card">
+                <div>
+                  <p class="mint-num">03</p>
+                  <p>CONFIRM THE TRANSACTION</p>
+                </div>
+              </div>
+              <div class="mint-card">
+                <div>
+                  <p class="mint-num">04</p>
+                  <p>RECEIVE YOUR NFT’S</p>
+                </div>
+              </div>
+            </div>
 
-                <div class="roadmap-slider"></div>
+            <div class="mint_img-video">
+              <!-- <iframe width="900" height="506" src="https://www.youtube.com/embed/7e90gBu4pas" title="Working at Envato" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
+              <img src="assets/images/1 (2).jpg" alt="" />
+            </div>
+          </div>
+        </div>
 
-                <div class="roadmap-card-container d-flex">
-                    <div class="roadmap-card">
-                        <div class="roadmap-phase">
-                            <p>PHASE 01</p>
-                        </div>
-                        <div class="card-details">
-                            <p class="roadmap-date">October 09, 2022</p>
-                            <p class="roadmap-title">Mini Game Lounch For Community</p>
-                            <p class="roadmap-text">Morbi non dignissim erat, a blandit felis. Suspendisse nec lorem vel
-                                orci varius congue ut vitae est. Nam quis tempus nisl. Fusce posuere nibh a mi molestie,
-                                sit amet ornare lectus interdum.</p>
-                        </div>
-                    </div>
+        <!-- DIVIDER -->
+        <div class="divider"></div>
 
-                    <div class="roadmap-card d-none7">
-                        <div class="roadmap-phase">
-                            <p>PHASE 02</p>
-                        </div>
-                        <div class="card-details">
-                            <p class="roadmap-date">October 17, 2022</p>
-                            <p class="roadmap-title">New Set #12 is Coming Up</p>
-                            <p class="roadmap-text">Morbi non dignissim erat, a blandit felis. Suspendisse nec lorem vel
-                                orci varius congue ut vitae est. Nam quis tempus nisl. Fusce posuere nibh a mi molestie,
-                                sit amet ornare lectus interdum.</p>
-                        </div>
-                    </div>
+        <div class="collection-container" id="collect">
+          <p class="contactUs-title t-center collect">OUR COLLECTION</p>
 
-                    <div class="roadmap-card  d-none4">
-                        <div class="roadmap-phase">
-                            <p>PHASE 03</p>
-                        </div>
-                        <div class="card-details">
-                            <p class="roadmap-date">October 28, 2022</p>
-                            <p class="roadmap-title">Metaverse 3.0 Launch</p>
-                            <p class="roadmap-text">Morbi non dignissim erat, a blandit felis. Suspendisse nec lorem vel
-                                orci varius congue ut vitae est. Nam quis tempus nisl. Fusce posuere nibh a mi molestie,
-                                sit amet ornare lectus interdum.</p>
-                        </div>
-                    </div>
+          <div class="collection-img_container d-flex">
+            <div class="normal-img m-b mb-9">
+              <img src="assets/images/14.jpg" alt="" />
+            </div>
+            <div class="normal-img-container mb-9">
+              <div class="small-img small-img1">
+                <img src="assets/images/blog-single-img-2.jpg" alt="" />
+              </div>
+            </div>
+            <div class="normal-img m-b">
+              <img src="assets/images/5.jpg" alt="" />
+            </div>
+            <div class="normal-img-container margin-b">
+              <div class="small-img small-img1">
+                <img src="assets/images/13.jpg" alt="" />
+              </div>
+            </div>
+          </div>
 
-                    <div class="roadmap-card d-none4">
-                        <div class="roadmap-phase">
-                            <p>PHASE 04</p>
-                        </div>
-                        <div class="card-details">
-                            <p class="roadmap-date">November 11, 2022</p>
-                            <p class="roadmap-title">Female Set #20 is Coming Up</p>
-                            <p class="roadmap-text">Morbi non dignissim erat, a blandit felis. Suspendisse nec lorem vel
-                                orci varius congue ut vitae est. Nam quis tempus nisl. Fusce posuere nibh a mi molestie,
-                                sit amet ornare lectus interdum.</p>
-                        </div>
-                    </div>
-                    <!-- <div class="roadmap-card">
+          <div class="collection-img_container d-flex">
+            <div class="small-img mb-1">
+              <img src="assets/images/15.jpg" alt="" />
+            </div>
+            <div class="normal-img">
+              <img src="assets/images/10.jpg" alt="" />
+            </div>
+            <div class="small-img mt-1">
+              <img src="assets/images/12.jpg" alt="" />
+            </div>
+            <div class="normal-img mt-1">
+              <img src="assets/images/11.jpg" alt="" />
+            </div>
+          </div>
+
+          <p class="t-center collection-text">
+            Meta Legends represent a collection of 17,000 legends categorized by
+            level of rarity and generated with hundreds of elements. The Legends
+            are stored as ERC-721 tokens on the Ethereum blockchain and hosted
+            on IPFS.
+          </p>
+
+          <div class="connect-button">
+            <button type="">SEE ALL COLLECTIONS</button>
+          </div>
+        </div>
+
+        <!-- DIVIDER -->
+        <div class="divider"></div>
+
+        <div class="roadmap-container">
+          <p class="contactUs-title t-center">ROADMAP</p>
+
+          <div class="dashed-border d-flex">
+            <div class="">
+              <img src="assets/images/roadmap.png" alt="" />
+            </div>
+            <div class="d-none6">
+              <img src="assets/images/roadmap.png" alt="" />
+            </div>
+            <div class="d-none6">
+              <img src="assets/images/roadmap.png" alt="" />
+            </div>
+            <div class="d-none6">
+              <img src="assets/images/roadmap.png" alt="" />
+            </div>
+            <div class="d-none5">
+              <img src="assets/images/roadmap.png" alt="" />
+            </div>
+            <div class="d-none4">
+              <img src="assets/images/roadmap.png" alt="" />
+            </div>
+            <div class="d-none4">
+              <img src="assets/images/roadmap.png" alt="" />
+            </div>
+            <div class="d-none4">
+              <img src="assets/images/roadmap.png" alt="" />
+            </div>
+            <div class="d-none4">
+              <img src="assets/images/roadmap.png" alt="" />
+            </div>
+            <div class="d-none4">
+              <img src="assets/images/roadmap.png" alt="" />
+            </div>
+            <div class="d-none">
+              <img src="assets/images/roadmap.png" alt="" />
+            </div>
+            <div class="d-none">
+              <img src="assets/images/roadmap.png" alt="" />
+            </div>
+            <div class="d-none">
+              <img src="assets/images/roadmap.png" alt="" />
+            </div>
+          </div>
+
+          <div class="roadmap-slider"></div>
+
+          <div class="roadmap-card-container d-flex">
+            <div class="roadmap-card">
+              <div class="roadmap-phase">
+                <p>PHASE 01</p>
+              </div>
+              <div class="card-details">
+                <p class="roadmap-date">October 09, 2022</p>
+                <p class="roadmap-title">Mini Game Lounch For Community</p>
+                <p class="roadmap-text">
+                  Morbi non dignissim erat, a blandit felis. Suspendisse nec
+                  lorem vel orci varius congue ut vitae est. Nam quis tempus
+                  nisl. Fusce posuere nibh a mi molestie, sit amet ornare lectus
+                  interdum.
+                </p>
+              </div>
+            </div>
+
+            <div class="roadmap-card d-none7">
+              <div class="roadmap-phase">
+                <p>PHASE 02</p>
+              </div>
+              <div class="card-details">
+                <p class="roadmap-date">October 17, 2022</p>
+                <p class="roadmap-title">New Set #12 is Coming Up</p>
+                <p class="roadmap-text">
+                  Morbi non dignissim erat, a blandit felis. Suspendisse nec
+                  lorem vel orci varius congue ut vitae est. Nam quis tempus
+                  nisl. Fusce posuere nibh a mi molestie, sit amet ornare lectus
+                  interdum.
+                </p>
+              </div>
+            </div>
+
+            <div class="roadmap-card d-none4">
+              <div class="roadmap-phase">
+                <p>PHASE 03</p>
+              </div>
+              <div class="card-details">
+                <p class="roadmap-date">October 28, 2022</p>
+                <p class="roadmap-title">Metaverse 3.0 Launch</p>
+                <p class="roadmap-text">
+                  Morbi non dignissim erat, a blandit felis. Suspendisse nec
+                  lorem vel orci varius congue ut vitae est. Nam quis tempus
+                  nisl. Fusce posuere nibh a mi molestie, sit amet ornare lectus
+                  interdum.
+                </p>
+              </div>
+            </div>
+
+            <div class="roadmap-card d-none4">
+              <div class="roadmap-phase">
+                <p>PHASE 04</p>
+              </div>
+              <div class="card-details">
+                <p class="roadmap-date">November 11, 2022</p>
+                <p class="roadmap-title">Female Set #20 is Coming Up</p>
+                <p class="roadmap-text">
+                  Morbi non dignissim erat, a blandit felis. Suspendisse nec
+                  lorem vel orci varius congue ut vitae est. Nam quis tempus
+                  nisl. Fusce posuere nibh a mi molestie, sit amet ornare lectus
+                  interdum.
+                </p>
+              </div>
+            </div>
+            <!-- <div class="roadmap-card">
                         <div class="roadmap-phase"><p>PHASE 05</p></div>
                         <div class="card-details">
                             <p class="roadmap-date">November 23, 2022</p>
@@ -569,272 +794,431 @@
                             <p class="roadmap-text">Morbi non dignissim erat, a blandit felis. Suspendisse nec lorem vel orci varius congue ut vitae est. Nam quis tempus nisl. Fusce posuere nibh a mi molestie, sit amet ornare lectus interdum.</p>
                         </div>
                     </div> -->
+          </div>
+        </div>
 
+        <!-- DIVIDER -->
+        <div class="divider"></div>
 
+        <div class="blog-article-container" id="blog">
+          <p class="contactUs-title t-center">LATEST ARTICLE</p>
 
+          <div class="article-flex d-flex">
+            <div class="article-flex-content">
+              <div class="article-border article-border1">
+                <div class="article-num d-flex">
+                  <p>01</p>
                 </div>
-
+                <p class="roadmap-date">
+                  August 09, 2022 / MetaVerse / 4 Comments
+                </p>
+                <a class="article-link" href="blog-single.html"
+                  >Reasons Why People Use Discord</a
+                >
+                <div class="article-flex-content-img">
+                  <img src="assets/images/blog-single-img-1.jpg" alt="" />
+                </div>
+                <a class="read-more" href="blog-single.html">READ MORE</a>
+              </div>
             </div>
 
-            <!-- DIVIDER -->
-            <div class="divider"></div>
-
-            <div class="blog-article-container" id="blog">
-                <p class="contactUs-title t-center">LATEST ARTICLE</p>
-
-                <div class="article-flex d-flex">
-                    <div class="article-flex-content">
-                        <div class="article-border article-border1">
-                            <div class="article-num d-flex">
-                                <p>01</p>
-                            </div>
-                            <p class="roadmap-date">August 09, 2022 / MetaVerse / 4 Comments</p>
-                            <a class="article-link" href="blog-single.html">Reasons Why People Use Discord</a>
-                            <div class="article-flex-content-img">
-                                <img src="assets/images/blog-single-img-1.jpg" alt="">
-                            </div>
-                            <a class="read-more" href="blog-single.html">READ MORE</a>
-                        </div>
-                    </div>
-
-                    <div class="article-flex-content article-flex-content2">
-                        <div class="article-border article-border2">
-                            <div class="article-num d-flex">
-                                <p>02</p>
-                            </div>
-                            <a class="roadmap-date" href="blog-single.html">August 09, 2022 / MetaVerse / 4 Comments</a>
-                            <a class="article-link" href="blog-single.html">Trial-By-Combat: The Death Cup</a>
-                            <a class="read-more" href="blog-single.html">READ MORE</a>
-                        </div>
-                        <div class="article-border article-border2">
-                            <div class="article-num d-flex">
-                                <p>03</p>
-                            </div>
-                            <a class="roadmap-date" href="blog-single.html">August 09, 2022 / NFT / 4 Comments</a>
-                            <a class="article-link" href="blog-single.html">Graffiti Racer Research Center #10</a>
-                            <a class="read-more" href="blog-single.html">READ MORE</a>
-                        </div>
-                        <div class="article-border article-border2">
-                            <div class="article-num d-flex">
-                                <p>04</p>
-                            </div>
-                            <a class="roadmap-date" href="blog-single.html">August 09, 2022 / MetaVerse / 4 Comments</a>
-                            <a class="read-more" href="blog-single.html">READ MORE</a>
-                        </div>
-                    </div>
+            <div class="article-flex-content article-flex-content2">
+              <div class="article-border article-border2">
+                <div class="article-num d-flex">
+                  <p>02</p>
                 </div>
-
-                <div class="article-flex d-flex">
-                    <section class="btn article-flex-content">
-                        <button type="submit">READ MORE ARTICLES</button>
-                    </section>
-
-                    <section class="article-flex-content d-flex article-last">
-                        <p>We’re a team of creatives who are excited about unique ideas and create consectetur
-                            adipiscing elit. Etiam vitae purus a lectus semper.</p>
-                    </section>
+                <a class="roadmap-date" href="blog-single.html"
+                  >August 09, 2022 / MetaVerse / 4 Comments</a
+                >
+                <a class="article-link" href="blog-single.html"
+                  >Trial-By-Combat: The Death Cup</a
+                >
+                <a class="read-more" href="blog-single.html">READ MORE</a>
+              </div>
+              <div class="article-border article-border2">
+                <div class="article-num d-flex">
+                  <p>03</p>
                 </div>
+                <a class="roadmap-date" href="blog-single.html"
+                  >August 09, 2022 / NFT / 4 Comments</a
+                >
+                <a class="article-link" href="blog-single.html"
+                  >Graffiti Racer Research Center #10</a
+                >
+                <a class="read-more" href="blog-single.html">READ MORE</a>
+              </div>
+              <div class="article-border article-border2">
+                <div class="article-num d-flex">
+                  <p>04</p>
+                </div>
+                <a class="roadmap-date" href="blog-single.html"
+                  >August 09, 2022 / MetaVerse / 4 Comments</a
+                >
+                <a class="read-more" href="blog-single.html">READ MORE</a>
+              </div>
+            </div>
+          </div>
 
+          <div class="article-flex d-flex">
+            <section class="btn article-flex-content">
+              <button type="submit">READ MORE ARTICLES</button>
+            </section>
+
+            <section class="article-flex-content d-flex article-last">
+              <p>
+                We’re a team of creatives who are excited about unique ideas and
+                create consectetur adipiscing elit. Etiam vitae purus a lectus
+                semper.
+              </p>
+            </section>
+          </div>
+        </div>
+
+        <!-- DIVIDER -->
+        <div class="divider"></div>
+
+        <div class="contactUs-container" id="contact">
+          <p class="contactUs-title t-center">CONTACT US</p>
+
+          <section class="contactus-info d-flex">
+            <div class="contactus-details contactus-details_text">
+              <div>
+                <p>
+                  Duis suscipit egestas ullamcorper. Cras porta nulla et
+                  tristique pellentesque. Praesent finibus mauris eu
+                  sollicitudin interdum. Morbi et blandit quam. Donec vitae
+                  massa purus. Curabitur nunc mauris, iaculis a nibh at,
+                  ultricies sodales dolor.
+                </p>
+              </div>
+
+              <div>
+                <p>
+                  Curabitur pharetra velit eget dignissim varius. In vulputate
+                  elit at tortor pellentesque, non pulvinar neque consequat.
+                </p>
+              </div>
             </div>
 
-            <!-- DIVIDER -->
-            <div class="divider"></div>
+            <div class="contactus-details phone-email">
+              <section>
+                <p class="contactUs-header">PHONE</p>
+                <p class="contactus-number">+77 022 177 05 05</p>
+              </section>
 
-
-            <div class="contactUs-container" id="contact">
-                <p class="contactUs-title t-center">CONTACT US</p>
-
-                <section class="contactus-info d-flex">
-                    <div class="contactus-details contactus-details_text">
-                        <div>
-                            <p>Duis suscipit egestas ullamcorper. Cras porta nulla et tristique pellentesque. Praesent
-                                finibus mauris eu sollicitudin interdum. Morbi et blandit quam. Donec vitae massa purus.
-                                Curabitur nunc mauris, iaculis a nibh at, ultricies sodales dolor.</p>
-                        </div>
-
-                        <div>
-                            <p>Curabitur pharetra velit eget dignissim varius. In vulputate elit at tortor pellentesque,
-                                non pulvinar neque consequat.</p>
-                        </div>
-                    </div>
-
-                    <div class="contactus-details phone-email">
-                        <section>
-                            <p class="contactUs-header">PHONE</p>
-                            <p class="contactus-number">+77 022 177 05 05</p>
-                        </section>
-
-                        <section>
-                            <p class="contactUs-header">EMAIL</p>
-                            <p class="contactus-email">frenifyteam@gmail.com</p>
-                        </section>
-
-                    </div>
-
-                    <div class="contactus-details">
-                        <p class="contactUs-header">OFFICE</p>
-                        <p class="contactus-address">124 S Main St, Scottville, MI 49454, United States</p>
-                    </div>
-                </section>
-
-                <section class="contactUs-form">
-                    <form action="">
-                        <section class="personal-info d-flex">
-                            <div class="info">
-                                <input type="text" id="name" name="Name" placeholder="Your Name *" required>
-                                <input type="number" id="phone" name="Phone" placeholder="Your Phone (optional)">
-                            </div>
-
-                            <div class="info">
-                                <input type="email" id="email" name="Email" placeholder="Your Email *" required>
-                                <input type="text" id="topic" name="Topic" placeholder="Topic (optional)">
-                            </div>
-                        </section>
-
-                        <section class="t-area">
-                            <textarea name="Meessage" id="message" cols="30" rows="10"
-                                placeholder="Your Message *"></textarea>
-                        </section>
-
-                        <section class="check">
-                            <input type="checkbox" name="Okay" id="okay"> <label for="Okay">I'm okay in getting emails
-                                and having that activity tracked to improve my experience</label>
-                        </section>
-
-                        <section class="btn">
-                            <button type="submit">SEND MESSAGE</button>
-                        </section>
-                    </form>
-                </section>
-
+              <section>
+                <p class="contactUs-header">EMAIL</p>
+                <p class="contactus-email">frenifyteam@gmail.com</p>
+              </section>
             </div>
-        </main>
 
+            <div class="contactus-details">
+              <p class="contactUs-header">OFFICE</p>
+              <p class="contactus-address">
+                124 S Main St, Scottville, MI 49454, United States
+              </p>
+            </div>
+          </section>
 
+          <section class="contactUs-form">
+            <form action="">
+              <section class="personal-info d-flex">
+                <div class="info">
+                  <input
+                    type="text"
+                    id="name"
+                    name="Name"
+                    placeholder="Your Name *"
+                    required
+                  />
+                  <input
+                    type="number"
+                    id="phone"
+                    name="Phone"
+                    placeholder="Your Phone (optional)"
+                  />
+                </div>
+
+                <div class="info">
+                  <input
+                    type="email"
+                    id="email"
+                    name="Email"
+                    placeholder="Your Email *"
+                    required
+                  />
+                  <input
+                    type="text"
+                    id="topic"
+                    name="Topic"
+                    placeholder="Topic (optional)"
+                  />
+                </div>
+              </section>
+
+              <section class="t-area">
+                <textarea
+                  name="Meessage"
+                  id="message"
+                  cols="30"
+                  rows="10"
+                  placeholder="Your Message *"
+                ></textarea>
+              </section>
+
+              <section class="check">
+                <input type="checkbox" name="Okay" id="okay" />
+                <label for="Okay"
+                  >I'm okay in getting emails and having that activity tracked
+                  to improve my experience</label
+                >
+              </section>
+
+              <section class="btn">
+                <button type="submit">SEND MESSAGE</button>
+              </section>
+            </form>
+          </section>
+        </div>
+      </main>
     </div>
 
     <footer>
-        <div class="footer-container d-flex">
-            <div class="copyright">
-                <p>Copyright 2022 - Designed & Developed by <a href="https://themeforest.net/user/frenify/portfolio">Frenify</a></p>
-            </div>
-
-            <div class="footer-pages">
-                <ul class="d-flex">
-                    <li><a href="privacy.html">Privacy Policy</a></li>
-                    <li><a href="cookies.html">Cookies</a></li>
-                    <li><a href="T&C.html">Terms & Conditions</a></li>
-                </ul>
-
-            </div>
+      <div class="footer-container d-flex">
+        <div class="copyright">
+          <p>
+            Copyright 2022 - Designed & Developed by
+            <a href="https://themeforest.net/user/frenify/portfolio">Frenify</a>
+          </p>
         </div>
+
+        <div class="footer-pages">
+          <ul class="d-flex">
+            <li><a href="privacy.html">Privacy Policy</a></li>
+            <li><a href="cookies.html">Cookies</a></li>
+            <li><a href="T&C.html">Terms & Conditions</a></li>
+          </ul>
+        </div>
+      </div>
     </footer>
-      <!--Scroll to thew top-->
-      <button class="scroll-to-top">
-        <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512">
-          <path fill="#9ba0b8" d="M201.4 137.4c12.5-12.5 32.8-12.5 45.3 0l160 160c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L224 205.3 86.6 342.6c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3l160-160z"/>
-        </svg>
-        
-      </button>
+    <!--Scroll to thew top-->
+    <button class="scroll-to-top">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        height="1em"
+        viewBox="0 0 448 512"
+      >
+        <path
+          fill="#9ba0b8"
+          d="M201.4 137.4c12.5-12.5 32.8-12.5 45.3 0l160 160c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L224 205.3 86.6 342.6c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3l160-160z"
+        />
+      </svg>
+    </button>
 
-
-       <!--Scroll to top-->
-  <script>
-    const scrollToTopBtn = document.querySelector('.scroll-to-top');
-window.addEventListener('scroll', () => {
-  if (window.pageYOffset > 0) {
-    scrollToTopBtn.classList.add('show');
-  } else {
-    scrollToTopBtn.classList.remove('show');
-  }
-});
-
-// Scroll to top when the button is clicked
-scrollToTopBtn.addEventListener('click', () => {
-  window.scrollTo({
-    top: 0,
-    behavior: 'smooth'
-  });
-});
-
-  </script>
-  <!--Blog JS-->
-    <!--Sidebar and Overlay-->
     <script>
-        var toggleIcon = document.getElementById('toggleIcon');
-        var overlay = document.getElementById('overlay');
-        var sidebar = document.getElementById('sidebar');
+      document.addEventListener("DOMContentLoaded", function () {
+        // Your JavaScript code here
+        // Function to toggle the display of sub-menus
+        function toggleSubMenu(subMenuId) {
+          const subMenu = document.getElementById(subMenuId);
+          const topListItems = document.querySelectorAll("nav > ul > li");
+          for (const listItem of topListItems) {
+            if (listItem.querySelector(".sub-menu") !== subMenu) {
+              listItem.style.display = "none";
+            }
+          }
+          subMenu.style.display =
+            subMenu.style.display === "block" ? "none" : "block";
 
-        function closeSidebar() {
-            toggleIcon.classList.remove('active');
-            overlay.classList.remove('active');
-            sidebar.classList.remove('active');
+          // Hide Home link when Home sub-menu is displayed
+          if (subMenuId === "homeSubMenu") {
+            document.getElementById("homeLink").style.display =
+              subMenu.style.display === "block" ? "none" : "block";
+          }
+
+          // Hide Pages link when Pages sub-menu is displayed
+          if (subMenuId === "pagesSubMenu") {
+            document.getElementById("pagesLink").style.display =
+              subMenu.style.display === "block" ? "none" : "block";
+          }
         }
 
-        toggleIcon.onclick = function (event) {
-            event.stopPropagation();
-            toggleIcon.classList.toggle('active');
-            overlay.classList.toggle('active');
-            sidebar.classList.toggle('active');
-        };
+        // Click event handler for Home link
+        document
+          .getElementById("homeLink")
+          .addEventListener("click", function (event) {
+            event.preventDefault();
+            toggleSubMenu("homeSubMenu");
+          });
 
-        document.addEventListener('click', function (event) {
-            if (!sidebar.contains(event.target)) {
-                closeSidebar();
+        // Click event handler for Pages link
+        document
+          .getElementById("pagesLink")
+          .addEventListener("click", function (event) {
+            event.preventDefault();
+            toggleSubMenu("pagesSubMenu");
+          });
+
+        // Function to toggle the display of more sub-menus
+        function toggleMoreSubMenu(subMenuId, moreSubMenuItem) {
+          const subMenu = document.getElementById(subMenuId);
+          const subMenuItems = document.getElementsByClassName(moreSubMenuItem);
+          const moreLink = document.getElementById("moreLink");
+          const otherSubMenus = document.querySelectorAll(
+            ".sub-menu:not(#" + subMenuId + "):not(." + moreSubMenuItem + ")"
+          );
+
+          // Hide other sub-menus (except the More sub-menu)
+          for (const menu of otherSubMenus) {
+            menu.style.display = "none";
+          }
+
+          // Show the More sub-menu
+          subMenu.style.display = "block";
+
+          // Show the items with the class moreSubMenuItem
+          for (const item of subMenuItems) {
+            item.style.display = "block";
+          }
+        }
+
+        document
+          .getElementById("moreLink")
+          .addEventListener("click", function (event) {
+            event.preventDefault();
+            toggleMoreSubMenu("moreSubMenu", "moreSubMenuItem");
+          });
+
+        // Click event handler for Back links
+        const backLinks = document.getElementsByClassName("back-link");
+        for (const link of backLinks) {
+          link.addEventListener("click", function (event) {
+            event.preventDefault();
+            const subMenus = document.getElementsByClassName("sub-menu");
+            for (const subMenu of subMenus) {
+              subMenu.style.display = "none";
             }
+            const topListItems = document.querySelectorAll("nav > ul > li");
+            for (const listItem of topListItems) {
+              listItem.style.display = "block";
+            }
+            // Show Home, Pages, and More links again when going back from sub-menu
+            document.getElementById("homeLink").style.display = "block";
+            document.getElementById("pagesLink").style.display = "block";
+            document.getElementById("moreLink").style.display = "block";
+          });
+        }
+      });
+    </script>
+
+    <!--Scroll to top-->
+    <script>
+      const scrollToTopBtn = document.querySelector(".scroll-to-top");
+      window.addEventListener("scroll", () => {
+        if (window.pageYOffset > 0) {
+          scrollToTopBtn.classList.add("show");
+        } else {
+          scrollToTopBtn.classList.remove("show");
+        }
+      });
+
+      // Scroll to top when the button is clicked
+      scrollToTopBtn.addEventListener("click", () => {
+        window.scrollTo({
+          top: 0,
+          behavior: "smooth",
         });
-       
-document.getElementById("close-btn").addEventListener("click", function() { 
-  toggleIcon.style.left ="none";
-  sidebar.style.left = "-400px";
-  overlay.style.display = "none";
-});
+      });
+    </script>
+    <!--Blog JS-->
+    <!--Sidebar and Overlay-->
+    <script>
+      var toggleIcon = document.getElementById("toggleIcon");
+      var overlay = document.getElementById("overlay");
+      var sidebar = document.getElementById("sidebar");
+
+      function closeSidebar() {
+        toggleIcon.classList.remove("active");
+        overlay.classList.remove("active");
+        sidebar.classList.remove("active");
+      }
+
+      toggleIcon.onclick = function (event) {
+        event.stopPropagation();
+        toggleIcon.classList.toggle("active");
+        overlay.classList.toggle("active");
+        sidebar.classList.toggle("active");
+      };
+
+      document.addEventListener("click", function (event) {
+        if (!sidebar.contains(event.target)) {
+          closeSidebar();
+        }
+      });
+
+      document
+        .getElementById("close-btn")
+        .addEventListener("click", function () {
+          toggleIcon.style.left = "none";
+          sidebar.style.left = "-400px";
+          overlay.style.display = "none";
+        });
     </script>
 
     <script>
-        document.addEventListener('DOMContentLoaded', function () {
-            const mainMenuItems = document.querySelectorAll('.main-menu .menu-item');
+      document.addEventListener("DOMContentLoaded", function () {
+        const mainMenuItems = document.querySelectorAll(
+          ".main-menu .menu-item"
+        );
 
-            mainMenuItems.forEach(function (item) {
-                const link = item.querySelector('a');
-                const subMenu = item.querySelector('.sub-menu');
-                const subPageBtn = item.querySelector('.subPageBtn');
+        mainMenuItems.forEach(function (item) {
+          const link = item.querySelector("a");
+          const subMenu = item.querySelector(".sub-menu");
+          const subPageBtn = item.querySelector(".subPageBtn");
 
-                link.addEventListener('click', function (e) {
-                    e.preventDefault();
-                    const isActive = link.classList.contains('active');
+          link.addEventListener("click", function (e) {
+            e.preventDefault();
+            const isActive = link.classList.contains("active");
 
-                    if (subMenu) {
-                        mainMenuItems.forEach(function (menuItem) {
-                            menuItem.classList.remove('active');
-                        });
+            if (subMenu) {
+              mainMenuItems.forEach(function (menuItem) {
+                menuItem.classList.remove("active");
+              });
 
-                        if (!isActive) {
-                            link.classList.add('active');
-                            subMenu.classList.add('active');
-                            document.querySelector('.main-menu').classList.add('hide-menu');
-                        } else {
-                            subMenu.classList.remove('active');
-                            document.querySelector('.main-menu').classList.remove('hide-menu');
-                        }
-                    } else {
-                        document.querySelector('.main-menu').classList.remove('hide-menu');
-                    }
-                });
+              if (!isActive) {
+                link.classList.add("active");
+                subMenu.classList.add("active");
+                document.querySelector(".main-menu").classList.add("hide-menu");
+              } else {
+                subMenu.classList.remove("active");
+                document
+                  .querySelector(".main-menu")
+                  .classList.remove("hide-menu");
+              }
+            } else {
+              document
+                .querySelector(".main-menu")
+                .classList.remove("hide-menu");
+            }
+          });
 
-                if (subPageBtn) {
-                    subPageBtn.addEventListener('click', function (e) {
-                        e.stopPropagation();
-                        subMenu.classList.toggle('active');
-                        document.querySelector('.main-menu').classList.toggle('hide-menu');
-                    });
-                }
+          if (subPageBtn) {
+            subPageBtn.addEventListener("click", function (e) {
+              e.stopPropagation();
+              subMenu.classList.toggle("active");
+              document
+                .querySelector(".main-menu")
+                .classList.toggle("hide-menu");
             });
+          }
         });
+      });
     </script>
+  
 <script src="script/script.js"></script>
 <script src="script/carousel.js"></script>
    
 </body>
 
 </html>
+
