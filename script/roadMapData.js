@@ -98,33 +98,46 @@ let roadMapData =[
   },
  
 ]
-
-
 const roadMapContainer = document.getElementById('roadMapContainer');
 
 const generateroadMapContent = () => {
-  const currentItems = roadMapData.slice(0, 4);
+  const breakpoint = window.matchMedia('(max-width: 768px)');
+  let currentItems;
 
+  if (breakpoint.matches) {
+    // Return one roadmap card on mobile and tablet.
+    currentItems = breakpoint.matches ? roadMapData.slice(0, 1) : roadMapData.slice(0, 2);
+  } else {
+    // Return four roadmap cards on laptop and desktop.
+    currentItems = roadMapData.slice(0, 4);
+  }
 
-  roadMapContainer.innerHTML = currentItems
-  .map((x) => {
-    let { id,  phase, date, title, desc } = x ;
-    
-    return `
-    <div class="roadmap-card">
-    <div class="roadmap-phase">
-      <p>${phase}</p>
-    </div>
-    <div class="card-details">
-      <p class="roadmap-date">${date}</p>
-      <p class="roadmap-title">${title}</p>
-      <p class="roadmap-text">${desc}</p>
-    </div>
-  </div>
- `;
-  })
-  .join("");
+  if (currentItems) {
+    // The currentItems object is defined, so we can call the map() method.
+    const htmlString = currentItems
+      .map((x) => {
+        let { id,  phase, date, title, desc } = x ;
+        
+        return `
+        <div class="roadmap-card">
+        <div class="roadmap-phase">
+          <p>${phase}</p>
+        </div>
+        <div class="card-details">
+          <p class="roadmap-date">${date}</p>
+          <p class="roadmap-title">${title}</p>
+          <p class="roadmap-text">${desc}</p>
+        </div>
+      </div>
+     `;
+      })
+      .join("");
+
+    // Set the innerHTML property of the roadmapContainer element to the HTML string.
+    roadMapContainer.innerHTML = htmlString;
+  } else {
+    // The currentItems object is undefined, so we do nothing.
+  }
 };
 
 generateroadMapContent();
-
