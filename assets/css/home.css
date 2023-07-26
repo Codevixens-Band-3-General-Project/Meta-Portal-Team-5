@@ -201,6 +201,7 @@ li a {
   font-weight: 700;
   padding: 20px;
   margin: auto;
+  margin-bottom: 1rem;
 }
 
 #sidebar .platforms.open-sea,
