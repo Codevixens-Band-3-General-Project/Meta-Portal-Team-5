@@ -746,6 +746,18 @@ main {
   align-items: center;
 }
 
+.clip span, .clip{
+  font-size: 4rem;
+  /* color: ; */
+  background: linear-gradient(to right, #cc00ff, #cc00ff);
+  -webkit-background-clip: text;
+  -webkit-text-stroke: 4px transparent;
+  color: #160f1a;
+  font-weight: 700;
+  font-family: "Heebo", sans-serif;
+  filter: drop-shadow(0 5px 20px rgba(204, 0, 255, 0.15));
+}
+
 .countdown-sect-container {
   margin: auto;
   width: 100%;
