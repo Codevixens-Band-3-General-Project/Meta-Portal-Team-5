@@ -5,13 +5,40 @@
     padding:  0;
     box-sizing: border-box;
 }
-body{
-    /* font-size: 22px; */
-    font-family:sans-serif;
-    /* line-height: 26px; */
-    color: #c3c6d3;;
-    /* color: rgb(210, 201, 201); */
+body {
+    font-family: 'Nunito',sans-serif;
+    color: #9ba0b8;
+    background: #1b121d;
+    background: -moz-linear-gradient(90deg,#1b121d 0,#120f2f 50%,#1b121d 100%);
+    background: -webkit-linear-gradient(90deg,#1b121d 0,#120f2f 50%,#1b121d 100%);
     background: linear-gradient(90deg,#1b121d 0,#120f2f 50%,#1b121d 100%);
+}
+
+body:after {
+    content: '';
+    top: 42.8%;
+    right: 25%;
+    background-color: #7000ff;
+    -webkit-filter: blur(150px);
+    -o-filter: blur(150px);
+    filter: blur(150px)
+}
+
+body:before {
+    content: '';
+    top: 27.5%;
+    left: 23.9%;
+    background-color: #cc00ff;
+    -webkit-filter: blur(150px);
+    -o-filter: blur(150px);
+    filter: blur(150px)
+}
+
+body:after,body:before {
+    width: 270px;
+    height: 270px;
+    border-radius: 100%;
+    position: fixed
 }
 
 h5{
