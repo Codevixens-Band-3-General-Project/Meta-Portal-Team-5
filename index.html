@@ -875,6 +875,8 @@
       </svg>
     </button>
 
+
+    <!--Sidebar Sub Menu-->
     <script>
       document.addEventListener("DOMContentLoaded", function () {
         // Your JavaScript code here
@@ -971,6 +973,56 @@
       });
     </script>
 
+<!--Sidebar Main menu-->
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const mainMenuItems = document.querySelectorAll(
+        ".main-menu .menu-item"
+      );
+
+      mainMenuItems.forEach(function (item) {
+        const link = item.querySelector("a");
+        const subMenu = item.querySelector(".sub-menu");
+        const subPageBtn = item.querySelector(".subPageBtn");
+
+        link.addEventListener("click", function (e) {
+          e.preventDefault();
+          const isActive = link.classList.contains("active");
+
+          if (subMenu) {
+            mainMenuItems.forEach(function (menuItem) {
+              menuItem.classList.remove("active");
+            });
+
+            if (!isActive) {
+              link.classList.add("active");
+              subMenu.classList.add("active");
+              document.querySelector(".main-menu").classList.add("hide-menu");
+            } else {
+              subMenu.classList.remove("active");
+              document
+                .querySelector(".main-menu")
+                .classList.remove("hide-menu");
+            }
+          } else {
+            document
+              .querySelector(".main-menu")
+              .classList.remove("hide-menu");
+          }
+        });
+
+        if (subPageBtn) {
+          subPageBtn.addEventListener("click", function (e) {
+            e.stopPropagation();
+            subMenu.classList.toggle("active");
+            document
+              .querySelector(".main-menu")
+              .classList.toggle("hide-menu");
+          });
+        }
+      });
+    });
+  </script>
     <!--Scroll to top-->
     <script>
       const scrollToTopBtn = document.querySelector(".scroll-to-top");
@@ -1025,57 +1077,8 @@
         });
     </script>
 
-    <script>
-      document.addEventListener("DOMContentLoaded", function () {
-        const mainMenuItems = document.querySelectorAll(
-          ".main-menu .menu-item"
-        );
-
-        mainMenuItems.forEach(function (item) {
-          const link = item.querySelector("a");
-          const subMenu = item.querySelector(".sub-menu");
-          const subPageBtn = item.querySelector(".subPageBtn");
-
-          link.addEventListener("click", function (e) {
-            e.preventDefault();
-            const isActive = link.classList.contains("active");
-
-            if (subMenu) {
-              mainMenuItems.forEach(function (menuItem) {
-                menuItem.classList.remove("active");
-              });
-
-              if (!isActive) {
-                link.classList.add("active");
-                subMenu.classList.add("active");
-                document.querySelector(".main-menu").classList.add("hide-menu");
-              } else {
-                subMenu.classList.remove("active");
-                document
-                  .querySelector(".main-menu")
-                  .classList.remove("hide-menu");
-              }
-            } else {
-              document
-                .querySelector(".main-menu")
-                .classList.remove("hide-menu");
-            }
-          });
-
-          if (subPageBtn) {
-            subPageBtn.addEventListener("click", function (e) {
-              e.stopPropagation();
-              subMenu.classList.toggle("active");
-              document
-                .querySelector(".main-menu")
-                .classList.toggle("hide-menu");
-            });
-          }
-        });
-      });
-    </script>
   
-<script src="script/script.js"></script>
+<script src="script/counter.js"></script>
 <script src="script/carousel.js"></script>
 <script src="script/roadMapData.js"></script>
 <script src="script/connectSidebar.js"></script>
