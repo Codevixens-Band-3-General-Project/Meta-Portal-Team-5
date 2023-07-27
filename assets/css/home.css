@@ -92,6 +92,7 @@ body:after,body:before {
   height: 50px;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
 
 .nav-bar {
@@ -202,6 +203,7 @@ li a {
   padding: 20px;
   margin: auto;
   margin-bottom: 1rem;
+  cursor: pointer;
 }
 
 #sidebar .platforms.open-sea,
